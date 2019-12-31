@@ -155,6 +155,10 @@ p {
   font-size: 16px;
 }
 
+footer {
+  border-top: solid 1px red;
+}
+
 .site-logo-image {
   padding-left: .5rem;
   width: 100%;
@@ -265,7 +269,6 @@ h2.masthead-text {
   margin-top: .75rem;
   padding-top: 1.75rem;
   margin-bottom: .5rem;
-  border-top: solid 1px red;
 }
 
 h3.artist-footer-detail {
