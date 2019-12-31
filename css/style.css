@@ -285,7 +285,7 @@ padding-top: .75rem;
 }
 
 .project-box {
-  border-bottom: 1px solid red;
+  border: .5px solid red;
   padding-top: .25rem;
 }
 
@@ -815,8 +815,8 @@ a.photographer-link:hover {
   }
 
   .project-box {
-    border-bottom: 1px solid red;
-    padding-top: 1rem;
+  border: .5px solid red;
+      padding-top: 1rem;
     padding-bottom: 1.5rem;
     padding-right: .75rem;
   }
