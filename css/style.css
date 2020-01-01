@@ -135,11 +135,11 @@ h4 {
 }
 
 h5 {
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 1.5rem;
-  margin-top: .5rem;
-  margin-bottom: 1rem;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.25rem;
+  margin-top: .25rem;
+  margin-bottom: .5rem;
 }
 
 h6 {
@@ -302,6 +302,14 @@ margin-bottom: .75rem;
 .project-box-text {
   padding: 0 .75rem;
   z-index: 11;
+}
+
+.black {
+  color: black;
+}
+
+.italic {
+  font-style: italic;
 }
 
 h2.project-title {
