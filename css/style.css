@@ -74,7 +74,8 @@ main {
 }
 
 img {
-
+max-width: 100%;
+height: auto;
 }
 
 nav {
@@ -286,16 +287,10 @@ h4.artist-footer-detailing {
 }
 
 .project-box {
-  width: 360px;
-  height: 275px;
-overflow: hidden;
 margin-bottom: .75rem;
 }
 
 .project-box-square {
-  width: 360px;
-  height: 360px;
-overflow: hidden;
 margin-bottom: .75rem;
 }
 
@@ -312,22 +307,25 @@ margin-bottom: .75rem;
   font-style: italic;
 }
 
+.black-underline {
+  border-bottom: solid 2.5px black;
+}
+
+a.pagenav-button:hover {
+  background-color: red;
+  color: white;
+  border-bottom: none;
+}
+
 h2.project-title {
   line-height: 2.25rem;
 }
 
 .project-img {
-  width: auto;
-  height: 275px;
 z-index: 1;
 }
 
 .img-centered {
-  display: flex;
-  background-size: cover;
-align-items: center;
-justify-content: center;
-text-align: center;
 z-index: 1;
 }
 
@@ -337,9 +335,6 @@ z-index: 1;
 }
 
 .mainpg-img {
-  position: relative;
-bottom: 100px;
-overflow: hidden;
 }
 
 .top-section {
@@ -641,8 +636,6 @@ a.photographer-link:hover {
     padding-top: 1rem;
     padding-bottom: 1.5rem;
     padding-right: .75rem;
-    width: 384px;
-    height: 540px;
   }
 
   .project-item-rationale {
@@ -740,8 +733,6 @@ a.photographer-link:hover {
 
   .project-box {
     padding-top: .25rem;
-    width: 640px;
-    height: 540px;
   }
 
   .pagenav-item {
