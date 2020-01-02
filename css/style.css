@@ -112,18 +112,18 @@ h1 {
 }
 
 h2 {
-  font-size: 1.55rem;
+  font-size: 1.35rem;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   margin-bottom: .25rem;
   margin-top: .25rem;
   padding: .25rem 0;
-  line-height: 1.85rem;
+  line-height: 1.75rem;
 }
 
 h3 {
   Font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5rem;
 }
@@ -164,7 +164,7 @@ footer {
 }
 
 .site-logo-image {
-  width: 90%;
+  width: 85%;
   align-items: flex-start;
   margin-bottom: -.5rem;
   margin-top: 0.25rem;
@@ -181,6 +181,9 @@ footer {
   text-align: left;
 }
 
+p.art-details {
+  padding: 5px 2.5px;
+}
 a.navigation-button {
   margin-bottom: .5rem;
 }
@@ -645,8 +648,8 @@ a.photographer-link:hover {
   }
 
   h2 {
-    font-size: 2rem;
-    line-height: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
   }
 
   h4 {
@@ -677,6 +680,11 @@ a.photographer-link:hover {
 
   .bottom-margin {
     margin-bottom: 1rem;
+  }
+
+  .site-logo-image {
+  margin-top: .6rem;
+  margin-bottom: .2rem;
   }
 
   h4.business-objective-title {
@@ -776,6 +784,11 @@ a.photographer-link:hover {
 
   .pagenav-item {
     margin-left: 32px;
+  }
+
+  .site-logo-image {
+    margin-bottom: -.25rem;
+    margin-top: .25rem;
   }
 
   .desktop-pagenav-button {
