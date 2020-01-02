@@ -63,9 +63,9 @@
 .hamburger-open {
   display: inline-block;
   margin: 0;
-  font-size: 4rem;
+  font-size: 2.75rem;
   vertical-align: middle;
-  color: red;
+  color: white;
 }
 
 /* The mobile menu overlay (background) */
