@@ -470,8 +470,6 @@ h3.project-description-subtitle {
 }
 
 .biography-img {
-  max-height: 70vh;
-  overflow: hidden;
   background-position: cover;
 }
 
