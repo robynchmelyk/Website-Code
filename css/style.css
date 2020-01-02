@@ -164,9 +164,10 @@ footer {
 }
 
 .site-logo-image {
-  padding-left: .5rem;
-  width: 100%;
+  width: 90%;
   align-items: flex-start;
+  margin-bottom: -.5rem;
+  margin-top: 0.25rem;
 }
 
 .masthead-row {}
