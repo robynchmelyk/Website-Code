@@ -324,12 +324,39 @@ p.bio-body-text {
   color: black;
 }
 
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border: solid 2px red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-outline {
+  height: 15px;
+  width: 15px;
+  background-color: #white;
+  border: solid 2px red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.skills-text {
+  text-align: left;
+}
+
 .italic {
   font-style: italic;
 }
 
 .black-underline {
   border-bottom: solid 2.5px black;
+}
+
+.red-border {
+  border: solid 1px red;
+  padding: 1.5rem;
 }
 
 a.pagenav-button:hover {
@@ -457,7 +484,7 @@ p.project-item-rationale {
 
 h4.business-objective-title {
   font-size: 1.55rem;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
 }
 
 h4.rationale-title {
@@ -476,6 +503,11 @@ h3.project-description-subtitle {
 
 .biography-img {
   background-position: cover;
+  margin: .75rem 0;
+}
+
+.biography-body-text {
+  text-align: left;
 }
 
 .bold {
@@ -685,14 +717,18 @@ a.photographer-link:hover {
     margin-bottom: 1rem;
   }
 
+  .top-margin {
+    margin-top: 1.5rem;
+  }
+
   .site-logo-image {
     margin-top: .6rem;
     margin-bottom: .2rem;
   }
 
   h4.business-objective-title {
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.95rem;
+    line-height: 2.4rem;
   }
 
   h4.rationale-title {
