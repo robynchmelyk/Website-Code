@@ -705,6 +705,14 @@ a.photographer-link:hover {
     line-height: 2.4rem;
   }
 
+  .padding {
+    padding: 1rem;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+
   .project-box {
     padding: .5rem .5rem;
   }
