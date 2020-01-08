@@ -714,6 +714,7 @@ a.photographer-link:hover {
 
   .align-center {
     align-items: center;
+    justify-content: center;
   }
 
   .project-box {
