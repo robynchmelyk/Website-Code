@@ -299,7 +299,6 @@ h4.artist-footer-detailing {
 }
 
 .project-box {
-  margin-bottom: .75rem;
 }
 
 .project-box:hover {
@@ -677,6 +676,10 @@ a.photographer-link:hover {
   margin-bottom: 1rem;
 }
 
+.padding {
+  padding: .5rem;
+}
+
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 1.65rem;
@@ -714,7 +717,6 @@ a.photographer-link:hover {
   }
 
   .project-box {
-    padding: .5rem .5rem;
   }
 
   .project-item-rationale {
