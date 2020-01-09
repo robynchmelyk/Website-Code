@@ -9,7 +9,7 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 16px;
+  padding: 0 8px;
 }
 
 .row {
@@ -679,6 +679,7 @@
 @media only screen and (min-width: 1200px) {
   .container {
       width: 100%;
+      padding: 0 16px;
   }
 
   .col-lg,
