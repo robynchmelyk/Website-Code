@@ -82,9 +82,9 @@
   left: 100%;
   top: 0;
   /* Black fallback color */
-  background-color: #9E9898;
+  background-color: #F2F2F2;
   /* Black w/opacity */
-  background-color: #9E9898;
+  background-color: #F2F2F2;
   /* Disable scroll */
   overflow: hidden;
   /* 0.5 second transition effect */
@@ -107,29 +107,30 @@
 /* Position the close button (top right corner) */
 .mobile-menu-overlay .hamburger-close {
   position: absolute;
-  top: -8px;
+  top: -45px;
   right: 6px;
-  font-size: 5rem;
+  font-size: 4rem;
   transform: rotate(45deg);
-  color: white;
-  font-weight: 300;
+  color: grey;
+  font-weight: 400;
 }
 
 /* The navigation links inside the mobile menu */
 .mobile-menu-overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 4rem;
+  font-size: 3rem;
   /* Adjust link font here */
-font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   /*Adjust link colour here */
-  color: black;
+  color: grey;
   /* Display block instead of inline */
   display: block;
   /* Transition effect on hover */
   transition: 0.3s;
   margin-bottom: 35px;
+  margin-top: 55px;
 }
 
 a.is-active-mobile {
@@ -139,7 +140,7 @@ a.is-active-mobile {
 
 @media screen and (min-width: 767px) {
   .mobile-menu-overlay .hamburger-close {
-    font-size: 5rem;
+    font-size: 3.5rem;
     width: 14%;
     position: absolute;
     top: 30px;
@@ -148,9 +149,9 @@ a.is-active-mobile {
   }
 
   .mobile-menu-overlay a {
-    font-size: 8rem;
-    margin-bottom: 1rem;
-    margin-top: -1.5rem;
+    font-size: 3.5rem;
+    margin-bottom: 2.75rem;
+    margin-top: -1rem;
   }
 }
 
@@ -158,5 +159,5 @@ a.is-active-mobile {
 .mobile-menu-overlay a:hover,
 .mobile-menu-overlay a:focus {
   /* Adjust link hover effect here */
-  color: #f1f1f1;
+  color: red;
 }

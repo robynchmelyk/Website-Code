@@ -295,10 +295,15 @@ h4.artist-footer-detailing {
 }
 
 .project-box {
+  display: block;
+  background-color: #F2F2F2;
+  color: black;
+  margin-top: .75rem;
+  width: 100%;
 }
 
 .project-box:hover {
-  background-color: #9E9898;
+  background-color: #58e83c;
   color: black;
 }
 
@@ -309,6 +314,13 @@ h4.artist-footer-detailing {
 .project-box-text {
   padding: 0 .75rem;
   z-index: 11;
+  justify-content: center;
+  align-items: center;
+text-align: center;
+}
+
+.project-row {
+  margin-top: .75rem;
 }
 
 p.bio-body-text {
@@ -365,6 +377,7 @@ a.pagenav-button:hover {
 
 h2.project-title {
   line-height: 2.25rem;
+  margin-bottom: 1rem;
 }
 
 .project-img {
@@ -445,26 +458,24 @@ span.highlight {
 h4.more-info-text {
   font-weight: 300;
   color: black;
-  background-color: red;
+  background-color: white;
   text-align: center;
   align-items: flex-end;
   position: relative;
   padding: 2.5px;
   padding-right: 5px;
-  bottom: 75px;
-  right: 10%;
   font-size: .75rem;
-  margin-top: .25rem;
-  border: solid 1px white;
+  margin-top: 1rem;
+  border: solid 1px black;
   box-shadow: 2px 2px 12px grey;
-  margin-bottom: -35px;
   z-index: 11;
+  width: 33%;
 }
 
 h4.more-info-text:hover {
-  color: red;
-  background-color: white;
-  border: solid 1px red;
+  color: white;
+  background-color: black;
+  border: solid 1px white;
 }
 
 p.project-item-rationale {
@@ -686,8 +697,8 @@ a.photographer-link:hover {
   }
 
   h2 {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
   }
 
   h4 {
@@ -718,6 +729,7 @@ a.photographer-link:hover {
   }
 
   .project-box {
+    display: flex;
   }
 
   .project-item-rationale {
@@ -740,6 +752,10 @@ a.photographer-link:hover {
   h4.business-objective-title {
     font-size: 1.95rem;
     line-height: 2.4rem;
+  }
+
+  h4.more-info-text {
+    margin-top: 2.25rem;
   }
 
   h4.rationale-title {
@@ -796,9 +812,9 @@ a.photographer-link:hover {
   }
 
   h2.masthead-text {
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     justify-content: center;
-    line-height: 1.35;
+    line-height: 1.25;
   }
 
   label.contact-form {
@@ -841,7 +857,9 @@ a.photographer-link:hover {
     padding-right: 16px;
   }
 
-  .project-box {}
+  .project-box {
+
+  }
 
   .pagenav-item {
     margin-left: 32px;
