@@ -1,15 +1,16 @@
-$(function () {
-    var count = 0;
-    $('.owl-carousel').each(function () {
-        $(this).attr('id', 'owl-demo' + count);
-        $('#owl-demo' + count).owlCarousel({
-            navigation: true,
-            slideSpeed: 300,
-            pagination: true,
-            singleItem: true,
-            autoPlay: 2000,
-            autoHeight: true
-        });
-        count++;
-    });
-});
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
