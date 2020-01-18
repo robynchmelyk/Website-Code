@@ -111,13 +111,13 @@ h1 {
 }
 
 h2 {
-  font-size: 1.35rem;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 600;
   font-family: 'Poppins', sans-serif;
   margin-bottom: .25rem;
   margin-top: .25rem;
   padding: .25rem 0;
-  line-height: 1.75rem;
+  line-height: 1.6rem;
 }
 
 h3 {
@@ -192,6 +192,10 @@ a.navigation-button {
   color: black;
 }
 
+h1.site-logo {
+    -webkit-animation: colorchange 25s infinite alternate;
+}
+
 h2.masthead-text {
   font-family: 'Poppins', sans-serif;
   font-size: 1.75rem;
@@ -213,47 +217,47 @@ h2.masthead-text {
 
 @-webkit-keyframes colorchange {
   0% {
-    background-color: #A5FB4A;
+    color: #A5FB4A;
   }
 
   10% {
-    background-color: #8e44ad;
+    color: #8e44ad;
   }
 
   20% {
-    background-color: #1abc9c;
+    color: #1abc9c;
   }
 
   30% {
-    background-color: red;
+    color: red;
   }
 
   40% {
-    background-color: #A5FB4A;
+    color: #A5FB4A;
   }
 
   50% {
-    background-color: #8AFAFF;
+    color: #8AFAFF;
   }
 
   60% {
-    background-color: red;
+    color: red;
   }
 
   70% {
-    background-color: #6A76B8;
+    color: #6A76B8;
   }
 
   80% {
-    background-color: #f1c40f;
+    color: #f1c40f;
   }
 
   90% {
-    background-color: #8AFAFF;
+    color: #8AFAFF;
   }
 
   100% {
-    background-color: pink;
+    color: pink;
   }
 }
 
@@ -300,6 +304,7 @@ h4.artist-footer-detailing {
   color: black;
   margin-top: .75rem;
   width: 100%;
+  overflow: hidden;
 }
 
 .project-box:hover {
@@ -313,7 +318,7 @@ h4.artist-footer-detailing {
 
 .project-box-text {
   padding: 0 .75rem;
-  z-index: 11;
+  z-index: 1;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -363,8 +368,14 @@ p.bio-body-text {
   font-style: italic;
 }
 
-.black-underline {
-  border-bottom: solid 2.5px black;
+.grey-updown-border {
+  border-bottom: solid 1px grey;
+  border-top: solid 1px grey;
+font-size: 2.1rem;
+line-height: 2.4rem;
+color: black;
+margin-top: 1.5rem;
+padding: 1rem .5rem;
 }
 
 .red-underline {
@@ -385,7 +396,11 @@ h3.pullquote {
 }
 
 .pullqoute-box {
-
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: grey;
+  border-top: solid 1px grey;
+  border-bottom: solid 1px grey;
 }
 
 a.pagenav-button:hover {
@@ -394,12 +409,24 @@ a.pagenav-button:hover {
 }
 
 h2.project-title {
-  line-height: 2.25rem;
+  line-height: 1.75rem;
   margin-bottom: 1rem;
 }
 
+h2.project-title:hover {
+  transform: scale(1.15);
+}
+
+
 .project-img {
   z-index: 1;
+  padding-left: 2.5px;
+  padding-top: 2.5px;
+  overflow: hidden;
+}
+
+.project-img:hover {
+
 }
 
 .img-centered {
@@ -523,10 +550,15 @@ h4.rationale-title {
 }
 
 h3.project-description-subtitle {
-  font-size: 115%;
-  line-height: 125%;
-  font-weight: 600;
+  font-size: 92.5%;
+  line-height: 130%;
+  font-weight: 500;
   margin-bottom: .75rem;
+  color: #000f10;
+}
+
+h3.project-description-subtitle:hover {
+  transform: scale(1.15);
 }
 
 .biography-img {
@@ -748,6 +780,10 @@ a.photographer-link:hover {
 
   .project-box {
     display: flex;
+  }
+
+  .project-box:hover {
+    opacity: .9;
   }
 
   .project-item-rationale {

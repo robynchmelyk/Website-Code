@@ -65,7 +65,8 @@
   margin: 0;
   font-size: 2.75rem;
   vertical-align: middle;
-  color: #9E9898;
+  padding-right: .75rem;
+    -webkit-animation: colorchange 25s infinite alternate;
 }
 
 /* The mobile menu overlay (background) */
