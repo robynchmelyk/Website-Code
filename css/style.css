@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i|Poppins:300,300i,400,400i,500,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i|Poppins:300,300i,400,400i,500,500i,600,700,700i&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -166,6 +166,7 @@ footer {
   align-items: flex-start;
   margin-bottom: -.5rem;
   margin-top: 0.25rem;
+  font-weight: 700;
 }
 
 .masthead-row {}
@@ -193,7 +194,8 @@ a.navigation-button {
 }
 
 h1.site-logo {
-  -webkit-animation: colorchange 25s infinite alternate;
+  -webkit-animation: colorchange 30s infinite alternate;
+  font-weight: 600;
 }
 
 h2.masthead-text {
@@ -305,11 +307,16 @@ h4.artist-footer-detailing {
   margin-top: .75rem;
   width: 100%;
   overflow: hidden;
+  transition: all 0.3s ease-in-out;
 }
 
 .project-box:hover {
   background-color: #58e83c;
   color: black;
+}
+
+.green {
+  color: #58e83c;
 }
 
 .biography-text-box {
@@ -427,7 +434,17 @@ h2.project-title {
   overflow: hidden;
 }
 
-.project-img:hover {}
+.mainpg-img {
+  transition: all 0.3s ease-in-out;
+}
+
+.mainpg-img:hover {
+  filter: brightness(75%);
+}
+
+.project-img:hover {
+
+}
 
 .img-centered {
   z-index: 1;
@@ -438,8 +455,9 @@ h2.project-title {
   margin-top: 1rem;
 }
 
-.mainpg-img {
-  padding: 0 8px;
+
+.right-img {
+  padding-right: 2.5px;
 }
 
 .padding {
@@ -494,10 +512,11 @@ span.highlight {
 }
 
 .copyright-information {
-  color: #1E1E1E;
+  color: #58e83c;
   text-align: left;
   margin-top: 2rem;
-  font-weight: 500;
+  font-weight: 400;
+  filter: brightness(80%);
 }
 
 h4.more-info-text {
@@ -514,12 +533,14 @@ h4.more-info-text {
   margin-top: .25rem;
   z-index: 11;
   width: 100%;
+  transition: all 0.3s ease-in-out;
 }
 
 h4.more-info-text:hover {
-  border: solid 1px black;
+  border: solid 1px #f1f7f0;
   font-style: italic;
-  color: black;
+  color: #f1f7f0;
+  background-color: black;
 }
 
 p.project-item-rationale {
@@ -574,7 +595,7 @@ h3.project-description-subtitle {
 }
 
 .bold {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2.page-title {
@@ -786,7 +807,7 @@ a.photographer-link:hover {
   }
 
   .project-box:hover {
-    opacity: .9;
+
   }
 
   .project-item-rationale {
@@ -796,6 +817,7 @@ a.photographer-link:hover {
   h2.project-title {
     line-height: 1.75rem;
     margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
   }
 
   h2.project-title:hover {
@@ -829,6 +851,8 @@ a.photographer-link:hover {
     margin-top: 2.25rem;
     position: relative;
     color: black;
+    background-color: #f1f7f0;
+    border: solid 1px black;
     padding: 2.5px;
     padding-right: 2.5px;
     padding-left: 2.5px;
@@ -848,6 +872,7 @@ a.photographer-link:hover {
     font-size: 92.5%;
     line-height: 130%;
     margin-bottom: .75rem;
+    transition: all 0.3s ease-in-out;
   }
 
   h3.project-description-subtitle:hover {
