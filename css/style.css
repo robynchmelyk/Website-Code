@@ -169,6 +169,10 @@ footer {
   font-weight: 700;
 }
 
+.hidden {
+  display: none;
+}
+
 .masthead-row {}
 
 .pagenav--items {
@@ -220,6 +224,7 @@ h2.masthead-text {
 .bottom-margin {
   margin-bottom: .5rem;
 }
+
 
 @-webkit-keyframes colorchange {
   0% {
@@ -438,12 +443,24 @@ h2.project-title {
   overflow: hidden;
 }
 
+.projectpg-img {
+  z-index: 1;
+  padding-left: 2.5px;
+  padding-top: 2.5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.mainpg-container {
+  padding: 0;
+}
+
 .mainpg-img {
   transition: all 0.3s ease-in-out;
 }
 
 .mainpg-img:hover {
-  filter: brightness(75%);
+  opacity: .9;
 }
 
 .project-img:hover {
@@ -562,7 +579,7 @@ p.project-item-rationale {
 }
 
 .project-description-header-text {
-  color: grey;
+
 }
 
 .red {
