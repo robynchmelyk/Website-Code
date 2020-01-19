@@ -111,7 +111,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   margin-bottom: .25rem;
@@ -312,6 +312,10 @@ h4.artist-footer-detailing {
   color: black;
 }
 
+.biography-text-box {
+  padding: .5rem 3rem;
+}
+
 .project-box-square {
   margin-bottom: .75rem;
 }
@@ -321,7 +325,8 @@ h4.artist-footer-detailing {
   z-index: 1;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
+  font-size:
 }
 
 .project-row {
@@ -409,12 +414,9 @@ a.pagenav-button:hover {
 }
 
 h2.project-title {
-  line-height: 1.75rem;
-  margin-bottom: 1rem;
-}
-
-h2.project-title:hover {
-  transform: scale(1.15);
+  line-height: 1.3rem;
+  margin-bottom: .25rem;
+  margin-top: .5rem;
 }
 
 .project-img {
@@ -499,23 +501,24 @@ span.highlight {
 
 h4.more-info-text {
   font-weight: 400;
-  color: black;
+  color: #58e83c;
+    border: solid 1px #58e83c;
   text-align: center;
   align-items: flex-end;
   position: relative;
-  padding: 2.5px;
+  padding: 5px;
   padding-right: 2.5px;
   padding-left: 2.5px;
-  font-size: .85rem;
-  margin-top: 1rem;
+  font-size: .9rem;
+  margin-top: .25rem;
   z-index: 11;
-  width: 40%;
-  left: 30%;
+  width: 100%;
 }
 
 h4.more-info-text:hover {
   border: solid 1px black;
   font-style: italic;
+  color: black;
 }
 
 p.project-item-rationale {
@@ -553,15 +556,11 @@ h4.rationale-title {
 }
 
 h3.project-description-subtitle {
-  font-size: 92.5%;
-  line-height: 130%;
+  font-size: .85rem;
+  line-height: 1.4rem;
   font-weight: 500;
   margin-bottom: .75rem;
   color: #000f10;
-}
-
-h3.project-description-subtitle:hover {
-  transform: scale(1.15);
 }
 
 .biography-img {
@@ -793,6 +792,15 @@ a.photographer-link:hover {
     padding-right: 3rem;
   }
 
+  h2.project-title {
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+  }
+
+  h2.project-title:hover {
+    transform: scale(1.15);
+  }
+
   .bottom-margin {
     margin-bottom: 1rem;
   }
@@ -814,6 +822,7 @@ a.photographer-link:hover {
   h4.more-info-text {
     margin-top: 2.25rem;
     position: relative;
+    color: black;
     padding: 2.5px;
     padding-right: 2.5px;
     padding-left: 2.5px;
@@ -830,7 +839,13 @@ a.photographer-link:hover {
   }
 
   h3.project-description-subtitle {
-    margin-bottom: 2rem;
+    font-size: 92.5%;
+    line-height: 130%;
+    margin-bottom: .75rem;
+  }
+
+  h3.project-description-subtitle:hover {
+    transform: scale(1.15);
   }
 
   .artist-bio-image {
@@ -840,6 +855,14 @@ a.photographer-link:hover {
     height: auto;
     width: 215px;
     z-index: -1;
+  }
+
+  .project-box-text {
+    padding: 0 .75rem;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .tablet-navigation-button {
@@ -975,6 +998,7 @@ a.photographer-link:hover {
     z-index: 11;
     width: 40%;
     left: 30%;
+    top: 50px;
   }
 
   .navigation-desktop {
