@@ -169,10 +169,6 @@ footer {
   font-weight: 700;
 }
 
-.hidden {
-  display: none;
-}
-
 .masthead-row {}
 
 .pagenav--items {
@@ -293,7 +289,6 @@ h2.masthead-text {
   margin-top: .5rem;
   padding-top: .5rem;
   margin-bottom: .5rem;
-  font-style: italic;
 }
 
 h3.artist-footer-detail {
@@ -316,12 +311,14 @@ h4.artist-footer-detailing {
   margin-top: .75rem;
   width: 100%;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
+  background: linear-gradient(to right, #58e83c 50%, #f1f7f0 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
 }
 
 .project-box:hover {
-  background-color: #58e83c;
-  color: black;
+  background-position: left bottom;
 }
 
 .green {
@@ -456,7 +453,7 @@ h2.project-title {
 }
 
 .mainpg-img {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .mainpg-img:hover {
@@ -554,14 +551,16 @@ h4.more-info-text {
   margin-top: .25rem;
   z-index: 11;
   width: 100%;
+  background-color: #f1f7f0;
   transition: all 0.3s ease-in-out;
+  filter: drop-shadow(3px 3px 0.25rem grey);
 }
 
 h4.more-info-text:hover {
-  border: solid 1px #f1f7f0;
   font-style: italic;
-  color: #f1f7f0;
-  background-color: black;
+  background-color: #58e83c;
+  color: white;
+  border: solid 1px white;
 }
 
 p.project-item-rationale {
@@ -779,6 +778,14 @@ a.photographer-link:hover {
   color: red;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-md {
+  display: inherit;
+}
+
 .socialmedia-item {
   margin-bottom: .25rem;
   display: flex;
@@ -832,6 +839,10 @@ a.photographer-link:hover {
     padding: 1rem;
   }
 
+  .flex-md {
+    display: flex;
+  }
+
   .align-center {
     align-items: center;
     justify-content: center;
@@ -857,6 +868,16 @@ a.photographer-link:hover {
 
   h2.project-title:hover {
     transform: scale(1.15);
+  }
+
+  h3.artist-footer-detail {
+    line-height: 1;
+    font-size: 2rem;
+  }
+
+  h4.artist-footer-detailing {
+    font-size: 1.5rem;
+    padding-top: .25rem;
   }
 
   .biography-text-box {
@@ -965,6 +986,7 @@ a.photographer-link:hover {
     margin-right: 2rem;
     position: relative;
     top: 2.5px;
+    filter: brightness(75%);
   }
 
   .desktop-pagenav-button {
@@ -972,7 +994,7 @@ a.photographer-link:hover {
     display: inline;
     font-weight: 400;
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     padding: 2.5px;
     margin-top: -2px;
   }
@@ -1065,7 +1087,7 @@ a.photographer-link:hover {
     display: inline;
     font-weight: 400;
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     padding: 2.5px;
     padding-top: 4px;
   }
@@ -1088,6 +1110,16 @@ a.photographer-link:hover {
     text-align: left;
   }
 
+  h3.artist-footer-detail {
+    line-height: 1;
+    font-size: 2.5rem;
+  }
+
+  h4.artist-footer-detailing {
+    font-weight: 500;
+    font-size: 1.9rem;
+    padding-top: .5rem;
+  }
 
   h2.bio-header-text {
     font-size: 2.3rem;

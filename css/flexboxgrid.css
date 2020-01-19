@@ -12,6 +12,10 @@
   padding: 0 8px;
 }
 
+.hidden {
+  display: none;
+}
+
 .row {
   box-sizing: border-box;
   display: -ms-flexbox;

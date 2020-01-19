@@ -144,5 +144,5 @@ a.is-active-mobile {
 .mobile-menu-overlay a:hover,
 .mobile-menu-overlay a:focus {
   /* Adjust link hover effect here */
-  color: red;
+  color: #58e83c;
 }
