@@ -184,6 +184,10 @@ p.art-details {
   padding: 5px 2.5px;
 }
 
+.top-margin {
+  margin-top: 2rem;
+}
+
 a.navigation-button {
   margin-bottom: .5rem;
 }
@@ -566,15 +570,15 @@ p.project-item-rationale {
 }
 
 h4.business-objective-title {
-  font-size: 1.55rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
+  text-transform: uppercase;
 }
 
 h4.rationale-title {
-  margin-top: .5rem;
-  font-size: 1.55rem;
-  line-height: 1.5rem;
-  margin-bottom: 0;
+  font-size: 1.15rem;
+  line-height: 1.55rem;
+  text-transform: uppercase;
 }
 
 h3.project-description-subtitle {
@@ -585,14 +589,28 @@ h3.project-description-subtitle {
   color: #000f10;
 }
 
+h2.bio-header-text {
+  font-size: 1.20rem;
+  line-height: 1.55rem;
+}
+
+.bio-top-section {
+
+}
+
 .biography-img {
-  background-position: cover;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  background-size: cover;
   margin: .75rem 0;
 }
 
 .biography-body-text {
   text-align: left;
 }
+
+
 
 .bold {
   font-weight: 600;
@@ -825,7 +843,7 @@ a.photographer-link:hover {
   }
 
   .biography-text-box {
-    padding: .5rem 3rem;
+    padding: .5rem 1.75rem;
     text-align: left;
   }
 
@@ -843,8 +861,8 @@ a.photographer-link:hover {
   }
 
   h4.business-objective-title {
-    font-size: 1.95rem;
-    line-height: 2.4rem;
+    font-size: 1.30rem;
+    line-height: 1.75rem;
   }
 
   h4.more-info-text {
@@ -864,8 +882,17 @@ a.photographer-link:hover {
   }
 
   h4.rationale-title {
-    font-size: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+  }
+
+  h4.section-title {
+    font-size: 1.75rem;
     line-height: 2rem;
+    text-transform: uppercase;
+    margin-top: .75rem;
+    font-weight: 600;
   }
 
   h3.project-description-subtitle {
@@ -1038,9 +1065,16 @@ a.photographer-link:hover {
   .mobile-navigation-button {
     display: none;
   }
+
   .biography-text-box {
     padding: .5rem 3rem;
     text-align: left;
+  }
+
+
+  h2.bio-header-text {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
   }
 
   h1.site-logo {
