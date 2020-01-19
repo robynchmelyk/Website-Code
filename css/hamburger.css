@@ -11,7 +11,7 @@
   display: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .mobile-only, .menu.mobile-only {
     display: none;
   }
@@ -83,9 +83,9 @@
   left: 100%;
   top: 0;
   /* Black fallback color */
-  background-color: #F2F2F2;
+  background-color: #f1f7f0;
   /* Black w/opacity */
-  background-color: #F2F2F2;
+  background-color: #f1f7f0;
   /* Disable scroll */
   overflow: hidden;
   /* 0.5 second transition effect */
@@ -112,7 +112,7 @@
   right: 6px;
   font-size: 4rem;
   transform: rotate(45deg);
-  color: grey;
+  color: black;
   font-weight: 400;
 }
 
@@ -125,7 +125,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   /*Adjust link colour here */
-  color: grey;
+  color: black;
   /* Display block instead of inline */
   display: block;
   /* Transition effect on hover */
@@ -139,22 +139,6 @@ a.is-active-mobile {
   color: black;
 }
 
-@media screen and (min-width: 767px) {
-  .mobile-menu-overlay .hamburger-close {
-    font-size: 3.5rem;
-    width: 14%;
-    position: absolute;
-    top: 30px;
-    right: 7px;
-    color: black;
-  }
-
-  .mobile-menu-overlay a {
-    font-size: 3.5rem;
-    margin-bottom: 2.75rem;
-    margin-top: -1rem;
-  }
-}
 
 /* When you mouse over the navigation links, change their color */
 .mobile-menu-overlay a:hover,
