@@ -86,8 +86,9 @@ nav {
 }
 
 header {
-  margin-bottom: .25rem;
+  margin-bottom: .5rem;
   color: #1E1E1E;
+  padding-top: .5rem;
 }
 
 li {
@@ -158,7 +159,9 @@ p {
 }
 
 footer {
-  margin-top: .75rem;
+  margin-top: 1.4rem;
+  background-color: #00ff97;
+  padding-top: .5rem;
 }
 
 .site-logo-image {
@@ -197,8 +200,9 @@ a.navigation-button {
   color: black;
 }
 
-h1.site-logo {
-  
+p.site-logo {
+font-weight: 300;
+font-size: 21px;
 }
 
 h2.masthead-text {
@@ -321,6 +325,8 @@ h4.artist-footer-detailing {
 
 .green {
   color: #00ff97;
+  font-weight: 700;
+  filter: brightness(.9);
 }
 
 .biography-text-box {
@@ -519,7 +525,8 @@ h2.section-titles:after {
 }
 
 span.highlight {
-  background-color: yellow;
+  border-bottom: solid 1.5px #00ff97;
+  border
 }
 
 .scroll-transition-fade {
@@ -527,17 +534,16 @@ span.highlight {
 }
 
 .copyright-information {
-  color: #00ff97;
   text-align: left;
   margin-top: 2rem;
   font-weight: 400;
-  filter: brightness(80%);
+
 }
 
 h4.more-info-text {
   font-weight: 400;
-  color: #00ff97;
-  border: solid 1px #00ff97;
+  color: black;
+  border: solid 1px black;
   text-align: center;
   align-items: flex-end;
   position: relative;
@@ -556,8 +562,7 @@ h4.more-info-text {
 h4.more-info-text:hover {
   font-style: italic;
   background-color: #00ff97;
-  color: white;
-  border: solid 1px white;
+  border: solid 1px black;
 }
 
 p.project-item-rationale {
@@ -845,6 +850,11 @@ a.photographer-link:hover {
     margin-bottom: 1.5rem;
   }
 
+  header {
+    margin-bottom: .75rem;
+    padding-top: .75rem;
+  }
+
   h2.page-title {
     font-size: 2rem;
     line-height: 2.4rem;
@@ -1016,7 +1026,7 @@ a.photographer-link:hover {
     margin-top: .2rem;
   }
 
-  h1.site-logo {
+  p.site-logo {
     margin-right: 2rem;
     position: relative;
     top: 2.5px;
@@ -1094,8 +1104,9 @@ a.photographer-link:hover {
   }
 
   header {
-    padding: 8px 0;
     padding-right: 16px;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   .project-box {}
@@ -1159,10 +1170,10 @@ a.photographer-link:hover {
     line-height: 2.8rem;
   }
 
-  h1.site-logo {
+  p.site-logo {
     margin-right: 2rem;
     position: relative;
-    top: 0px;
+    top: 3.5px;
   }
 
   h4.more-info-text {
