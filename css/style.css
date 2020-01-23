@@ -198,9 +198,7 @@ a.navigation-button {
 }
 
 h1.site-logo {
-  -webkit-animation: colorchange 35s infinite alternate;
-  font-family: 'Chonburi', cursive;
-  filter: brightness(75%);
+  
 }
 
 h2.masthead-text {
@@ -311,7 +309,7 @@ h4.artist-footer-detailing {
   margin-top: .75rem;
   width: 100%;
   overflow: hidden;
-  background: linear-gradient(to right, #58e83c 50%, #f1f7f0 50%);
+  background: linear-gradient(to right, #00ff97 50%, #f1f7f0 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease-out;
@@ -322,7 +320,7 @@ h4.artist-footer-detailing {
 }
 
 .green {
-  color: #58e83c;
+  color: #00ff97;
 }
 
 .biography-text-box {
@@ -529,7 +527,7 @@ span.highlight {
 }
 
 .copyright-information {
-  color: #58e83c;
+  color: #00ff97;
   text-align: left;
   margin-top: 2rem;
   font-weight: 400;
@@ -538,8 +536,8 @@ span.highlight {
 
 h4.more-info-text {
   font-weight: 400;
-  color: #58e83c;
-  border: solid 1px #58e83c;
+  color: #00ff97;
+  border: solid 1px #00ff97;
   text-align: center;
   align-items: flex-end;
   position: relative;
@@ -557,7 +555,7 @@ h4.more-info-text {
 
 h4.more-info-text:hover {
   font-style: italic;
-  background-color: #58e83c;
+  background-color: #00ff97;
   color: white;
   border: solid 1px white;
 }
