@@ -164,6 +164,10 @@ background-color: #00ff97;
   padding-top: .5rem;
 }
 
+p.body-text {
+  text-align: left;
+}
+
 .site-logo-image {
   width: 85%;
   align-items: flex-start;
