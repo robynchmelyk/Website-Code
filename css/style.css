@@ -1220,9 +1220,17 @@ a.photographer-link:hover {
     margin-top: .25rem;
   }
 
+  h3.project-description-subtitle {
+    font-size: 105%;
+    line-height: 155%;
+    margin-bottom: .75rem;
+    transition: all 0.3s ease-in-out;
+  }
+
   h2.project-title {
-    line-height: 1.75rem;
+    line-height: 2.3rem;
     margin-bottom: 1rem;
+    font-size: 1.75rem;
     transition: all 0.3s ease-in-out;
   }
 
