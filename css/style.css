@@ -830,6 +830,17 @@ button.submit-button:hover {
   background-color: white;
 }
 
+.social-media-icon {
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-media-icon:hover {
+  transform: scale(1.25);
+  background-color: #00ff97;
+}
+
 .submit-button {
   position: relative;
   top: 1.5px;
@@ -861,13 +872,6 @@ a.photographer-link:hover {
   justify-content: center;
   align-items: center;
   align-content: center;
-}
-
-.social-media-icons {
-  width: 55%;
-  justify-content: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .padding {
