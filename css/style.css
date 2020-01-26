@@ -916,6 +916,10 @@ a.photographer-link:hover {
     padding: 1rem;
   }
 
+  .padding-right {
+    padding-right: 1rem;
+  }
+
   .flex-md {
     display: flex;
   }
@@ -1198,7 +1202,7 @@ a.photographer-link:hover {
   .project-description-header-text {}
 
   .padding-right {
-    padding-right: 1rem;
+    padding-right: 1.25rem;
   }
 
   .below-img-deatils {
