@@ -160,7 +160,6 @@ p {
 
 footer {
   margin-top: 1.4rem;
-background-color: #f9f9f9;
   padding-top: .5rem;
 }
 
@@ -168,6 +167,8 @@ p.body-text {
   text-align: left;
   margin-bottom: .75rem;
 }
+
+
 
 .site-logo-image {
   width: 85%;
@@ -225,6 +226,10 @@ h2.masthead-text {
   text-align: left;
   line-height: 1.25;
   letter-spacing: 0.01rem;
+}
+
+.padding-right {
+  padding-right: .5rem;
 }
 
 .masthead-text-box {}
@@ -444,6 +449,10 @@ p.bio-body-text {
   padding: 1.5rem;
 }
 
+.below-img-deatils {
+  padding: .75rem 0;
+}
+
 h3.pullquote {
   font-size: 1.6rem;
   font-weight: 300;
@@ -623,7 +632,9 @@ p.project-item-rationale {
   margin-top: 1rem;
 }
 
-.project-description-header-text {}
+.project-description-header-text {
+
+}
 
 .red {
   color: red;
@@ -690,6 +701,7 @@ h2.page-title {
 h3.project-title-subheader {
   font-size: 125%;
   margin-bottom: 1rem;
+
 }
 
 .top-spacing {
@@ -719,6 +731,7 @@ h3.project-title-subheader {
     line-height: 2rem;
     text-transform: uppercase;
     margin-top: 1.4rem;
+    padding-bottom: .5rem;
       font-weight: 700;
   }
 
@@ -893,7 +906,7 @@ a.photographer-link:hover {
   }
 
   p {
-    line-height: 1.75rem;
+    line-height: 1.9rem;
     font-size: 21px;
     font-family: 'Muli', sans-serif;
   }
@@ -914,6 +927,12 @@ a.photographer-link:hover {
 
   .flex-md {
     display: flex;
+  }
+
+  h3.project-title-subheader {
+    font-size: 145%;
+    margin-bottom: 1.4rem;
+    margin-top: .75rem;
   }
 
   .align-center {
@@ -1007,6 +1026,7 @@ a.photographer-link:hover {
     text-transform: uppercase;
     margin-top: 3.25rem;
     margin-bottom: 2rem;
+    padding-bottom: .5rem;
   }
 
   h3.project-description-subtitle {
@@ -1081,7 +1101,6 @@ a.photographer-link:hover {
   p.site-logo {
     margin-right: 2rem;
     position: relative;
-    top: 2.5px;
   }
 
   .desktop-pagenav-button {
@@ -1162,8 +1181,8 @@ a.photographer-link:hover {
   }
 
   p {
-    line-height: 1.85rem;
-    font-size: 22px;
+    line-height: 2.2rem;
+    font-size: 24px;
     font-family: 'Muli', sans-serif;
   }
 
@@ -1171,6 +1190,23 @@ a.photographer-link:hover {
 
   .pagenav-item {
     margin-left: 32px;
+  }
+
+  h2.page-title {
+    font-size: 2.75rem;
+    line-height: 2.9rem;
+  }
+
+  .project-description-header-text {
+
+  }
+
+  .padding-right {
+    padding-right: 1rem;
+  }
+
+  .below-img-deatils {
+    padding: 1.5rem 0;
   }
 
   .site-logo-image {
@@ -1182,6 +1218,12 @@ a.photographer-link:hover {
     font-size: 2.5rem;
     line-height: 1.35;
     letter-spacing: 0.01rem;
+  }
+
+  .project-description-subheader {
+    text-transform: uppercase;
+    font-size: 155%;
+    margin-top: 1.5rem;
   }
 
   .desktop-pagenav-button {
@@ -1219,13 +1261,13 @@ a.photographer-link:hover {
 
   h3.artist-footer-detail {
     line-height: 1;
-    font-size: 2.5rem;
+    font-size: 3.3rem;
   }
 
   h4.artist-footer-detailing {
     font-weight: 500;
-    font-size: 1.9rem;
-    padding-top: .5rem;
+    font-size: 2.2rem;
+    padding-top: 1.25rem;
   }
 
   h2.bio-header-text {
@@ -1236,7 +1278,7 @@ a.photographer-link:hover {
   p.site-logo {
     margin-right: 2rem;
     position: relative;
-    top: 3.5px;
+
   }
 
   h4.more-info-text {
