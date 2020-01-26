@@ -952,6 +952,11 @@ a.photographer-link:hover {
     transition: all 0.3s ease-in-out;
   }
 
+  h2.bio-header-text {
+    font-size: 1.55rem;
+    line-height: 1.95rem;
+  }
+
   h2.project-title:hover {
     transform: scale(1.15);
   }
