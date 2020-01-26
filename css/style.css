@@ -160,7 +160,7 @@ p {
 
 footer {
   margin-top: 1.4rem;
-background-color: #00ff97;
+background-color: #f9f9f9;
   padding-top: .5rem;
 }
 
@@ -313,6 +313,8 @@ h4.artist-footer-detailing {
   font-weight: 500;
   font-size: 1.5rem;
   padding-top: .25rem;
+  color: #00ff97;
+  filter: brightness(.75);
 }
 
 .project-box {
@@ -611,7 +613,7 @@ p.project-item-rationale {
 }
 
 .business-objectives {
-  padding-top: 1rem;
+  padding-top: .5rem;
   padding-bottom: 1rem;
 }
 
@@ -940,7 +942,7 @@ a.photographer-link:hover {
   }
 
   .business-objectives {
-    padding-top: 1.75rem;
+    padding-top: .5rem;
     padding-bottom: 1.75rem;
   }
 
@@ -1206,7 +1208,7 @@ a.photographer-link:hover {
   }
 
   .business-objectives {
-    padding-top: 3rem;
+    padding-top: .5rem;
     padding-bottom: 3rem;
   }
 
