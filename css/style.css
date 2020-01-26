@@ -442,7 +442,7 @@ p.bio-body-text {
 }
 
 .green-underline {
-  border-bottom: solid 2.5px red;
+  border-bottom: solid 2.5px #00ff97;
 }
 
 .red-border {
@@ -642,8 +642,8 @@ h4.business-objective-title {
 h4.rationale-title {
   font-size: 1.6rem;
   line-height: 1.95rem;
-  text-transform: uppercase;
   font-weight: 600;
+  padding-top: .5rem;
 }
 
 h3.project-description-subtitle {
@@ -1016,9 +1016,11 @@ a.photographer-link:hover {
   }
 
   h4.rationale-title {
-    font-size: 1.75rem;
-    line-height: 2rem;
-    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: .9rem;
+      padding-top: 1rem;
+      margin-top: .75rem;
   }
 
   h4.section-title {
@@ -1172,13 +1174,14 @@ a.photographer-link:hover {
     font-size: 2.25rem;
     line-height: 2.4rem;
     margin-bottom: .9rem;
-    padding-top: 1rem;
+    padding-top: 1.75rem;
     padding-bottom: .5rem;
   }
 
   h5 {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.15rem;
+    line-height: 1.85rem;
     margin-bottom: .5rem;
   }
 
@@ -1192,6 +1195,15 @@ a.photographer-link:hover {
     line-height: 2.2rem;
     font-size: 24px;
     font-family: 'Muli', sans-serif;
+  }
+
+  h4.rationale-title {
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.4rem;
+    margin-bottom: .5rem;
+    padding-top: 1.75rem;
+    padding-bottom: 0rem;
   }
 
   .project-box {}
