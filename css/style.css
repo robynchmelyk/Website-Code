@@ -445,6 +445,17 @@ h2.project-title {
   margin-top: .5rem;
 }
 
+h4.related-project-title {
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+h4.related-project-title:hover {
+  transform: scale(1.15);
+}
+
 .project-img {
   z-index: 1;
   padding-left: 2.5px;
