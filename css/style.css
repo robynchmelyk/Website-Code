@@ -311,13 +311,13 @@ h3.artist-footer-detail {
   font-weight: 700;
   color: black;
   line-height: 1;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 h4.artist-footer-detailing {
   font-weight: 500;
   font-size: 1.5rem;
-  padding-top: .25rem;
+  padding-top: .6rem;
   color: #00ff97;
   filter: brightness(.75);
 }
