@@ -166,6 +166,7 @@ background-color: #00ff97;
 
 p.body-text {
   text-align: left;
+  margin-bottom: .75rem;
 }
 
 .site-logo-image {
@@ -193,6 +194,10 @@ p.art-details {
 
 .top-margin {
   margin-top: 2rem;
+}
+
+.inline {
+  display: inline-block;
 }
 
 a.navigation-button {
@@ -332,6 +337,26 @@ h4.artist-footer-detailing {
   font-weight: 700;
 }
 
+.orange {
+  color: #ef9221;
+}
+
+.blue {
+  color: #0080b9;
+}
+
+.magenta {
+  color: #e63494;
+}
+
+.red {
+  color: #ee3439;
+}
+
+.yellow {
+  color: #dbda42;
+}
+
 .biography-text-box {
   padding: .5rem;
   text-align: left;
@@ -369,7 +394,7 @@ p.bio-body-text {
 }
 
 .coloured-section {
-  background-color: #f1f7f0;
+  background-color: #f9f9f9;
 }
 
 .dot {
@@ -582,11 +607,12 @@ h4.more-info-text:hover {
 p.project-item-rationale {
   padding-bottom: .75rem;
   padding-top: .25rem;
+  text-align: left;
 }
 
 .business-objectives {
   padding-top: 1rem;
-  margin-bottom: .25rem;
+  padding-bottom: 1rem;
 }
 
 .project-description-subheader {
@@ -608,9 +634,10 @@ h4.business-objective-title {
 }
 
 h4.rationale-title {
-  font-size: 1.15rem;
-  line-height: 1.55rem;
+  font-size: 1.35rem;
+  line-height: 1.65rem;
   text-transform: uppercase;
+  font-weight: 600;
 }
 
 h3.project-description-subtitle {
@@ -861,7 +888,12 @@ a.photographer-link:hover {
   h5 {
     font-weight: bold;
     font-size: 1rem;
-    margin-bottom: 1.5rem;
+  }
+
+  p {
+    line-height: 1.75rem;
+    font-size: 21px;
+    font-family: 'Muli', sans-serif;
   }
 
   header {
@@ -905,6 +937,11 @@ a.photographer-link:hover {
 
   h2.project-title:hover {
     transform: scale(1.15);
+  }
+
+  .business-objectives {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
   }
 
   h3.artist-footer-detail {
@@ -957,18 +994,17 @@ a.photographer-link:hover {
   }
 
   h4.rationale-title {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
     text-transform: uppercase;
   }
 
-
-
   h4.section-title {
-    font-size: 200%;
+    font-size: 2.6rem;
     line-height: 2rem;
     text-transform: uppercase;
-    margin-top: .75rem;
+    margin-top: 3.25rem;
+    margin-bottom: 2rem;
   }
 
   h3.project-description-subtitle {
@@ -1114,13 +1150,19 @@ a.photographer-link:hover {
   h5 {
     font-weight: bold;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
   }
 
   header {
     padding-right: 16px;
     padding-top: 1.5rem;
     margin-bottom: 1rem;
+  }
+
+  p {
+    line-height: 1.85rem;
+    font-size: 22px;
+    font-family: 'Muli', sans-serif;
   }
 
   .project-box {}
@@ -1161,6 +1203,11 @@ a.photographer-link:hover {
 
   .mobile-navigation-button {
     display: none;
+  }
+
+  .business-objectives {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .biography-text-box {
