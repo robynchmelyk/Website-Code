@@ -948,6 +948,7 @@ a.photographer-link:hover {
   h2.project-title {
     line-height: 1.75rem;
     margin-bottom: 1rem;
+    font-size: 1.3rem;
     transition: all 0.3s ease-in-out;
   }
 
@@ -1212,6 +1213,16 @@ a.photographer-link:hover {
   .site-logo-image {
     margin-bottom: -.25rem;
     margin-top: .25rem;
+  }
+
+  h2.project-title {
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  h2.project-title:hover {
+    transform: scale(1.15);
   }
 
   h2.masthead-text {
