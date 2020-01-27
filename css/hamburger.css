@@ -67,6 +67,7 @@
   vertical-align: middle;
   padding-right: .75rem;
   color: #00ff97;
+  filter: brightness(.9);
 }
 
 /* The mobile menu overlay (background) */
