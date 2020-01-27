@@ -348,7 +348,7 @@ h4.artist-footer-detailing {
 .green {
   color: #00ff97;
   font-weight: 700;
-  filter: brightness(.8);
+  filter: brightness(.9);
 }
 
 .orange {
