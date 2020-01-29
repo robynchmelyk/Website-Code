@@ -458,7 +458,7 @@ p.bio-body-text {
   padding: 1.5rem;
 }
 
-.below-img-deatils {
+  .below-img-details {
   padding: 1.2rem 0;
 }
 
@@ -968,7 +968,7 @@ a.photographer-link:hover {
     display: flex;
   }
 
-  .below-img-deatils {
+  .below-img-details {
     padding: 1.5rem 0;
 
   }
@@ -1291,8 +1291,9 @@ a.photographer-link:hover {
     padding-right: 1.25rem;
   }
 
-  .below-img-deatils {
+  .below-img-details {
     padding: 2rem 0;
+    padding-top: 3.5rem;
   }
 
   .site-logo-image {
