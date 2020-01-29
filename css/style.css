@@ -211,7 +211,7 @@ a.navigation-button {
 }
 
 p.site-logo {
-  font-weight: 300;
+  font-weight: 700;
   font-size: 21px;
 }
 
@@ -973,7 +973,7 @@ a.photographer-link:hover {
   h2.project-title {
     line-height: 1.75rem;
     margin-bottom: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     transition: all 0.3s ease-in-out;
   }
 
@@ -1037,7 +1037,7 @@ a.photographer-link:hover {
     margin-top: 1rem;
     z-index: 11;
     width: 60%;
-    left: 30%;
+    left: 21%;
   }
 
   h4.rationale-title {
@@ -1273,9 +1273,9 @@ a.photographer-link:hover {
   }
 
   h2.project-title {
-    line-height: 2.3rem;
+    line-height: 2rem;
     margin-bottom: 1rem;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
   }
 
@@ -1358,8 +1358,8 @@ a.photographer-link:hover {
     font-size: .85rem;
     margin-top: 1rem;
     z-index: 11;
-    width: 40%;
-    left: 30%;
+    width: 60%;
+    left: 21%;
     top: 50px;
   }
 
