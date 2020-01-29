@@ -459,7 +459,7 @@ p.bio-body-text {
 }
 
 .below-img-deatils {
-  padding: .75rem 0;
+  padding: 1.2rem 0;
 }
 
 h3.pullquote {
@@ -640,9 +640,28 @@ p.project-item-rationale {
   text-transform: uppercase;
   font-size: 125%;
   margin-top: 1rem;
+  text-align: left;
 }
 
-.project-description-header-text {}
+h3.project-description-subheader {
+  text-transform: uppercase;
+  font-size: 160%;
+  margin-top: 1rem;
+  font-weight: 600;
+  padding-bottom: .5rem;
+  text-align: left;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.project-description-header-text {
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.5;
+  padding-bottom: .5rem;
+}
 
 h4.business-objective-title {
   font-size: 1.25rem;
@@ -949,6 +968,11 @@ a.photographer-link:hover {
     display: flex;
   }
 
+  .below-img-deatils {
+    padding: 1.5rem 0;
+
+  }
+
   h3.project-title-subheader {
     font-size: 145%;
     margin-bottom: 1.4rem;
@@ -1044,8 +1068,8 @@ a.photographer-link:hover {
     font-size: 2rem;
     line-height: 2.4rem;
     margin-bottom: .9rem;
-      padding-top: 1rem;
-      margin-top: .75rem;
+    padding-top: 1rem;
+    margin-top: .75rem;
   }
 
   h4.section-title {
@@ -1092,6 +1116,19 @@ a.photographer-link:hover {
     margin-top: 3rem;
     margin-bottom: 3rem;
     padding: 2rem 1rem;
+  }
+
+  h3.project-description-subheader {
+    font-size: 190%;
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+  }
+
+  .project-description-header-text {
+    text-align: left;
+    font-size: 27px;
+    line-height: 1.5;
+    padding-bottom: .75rem;
   }
 
   .artist-bio-image {
@@ -1250,14 +1287,12 @@ a.photographer-link:hover {
     line-height: 2.9rem;
   }
 
-  .project-description-header-text {}
-
   .padding-right {
     padding-right: 1.25rem;
   }
 
   .below-img-deatils {
-    padding: 1.5rem 0;
+    padding: 2rem 0;
   }
 
   .site-logo-image {
@@ -1297,6 +1332,19 @@ a.photographer-link:hover {
     text-transform: uppercase;
     font-size: 155%;
     margin-top: 1.5rem;
+  }
+
+  h3.project-description-subheader {
+    font-size: 200%;
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+  }
+
+  .project-description-header-text {
+    text-align: left;
+    font-size: 29px;
+    line-height: 1.5;
+    padding-bottom: 1rem;
   }
 
   .desktop-pagenav-button {
