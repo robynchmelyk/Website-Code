@@ -1172,6 +1172,7 @@ a.photographer-link:hover {
   p.site-logo {
     margin-right: 2rem;
     position: relative;
+    bottom: 1.5px;
   }
 
   .desktop-pagenav-button {
@@ -1181,7 +1182,6 @@ a.photographer-link:hover {
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     padding: 2.5px;
-    margin-top: -2px;
   }
 
   .download-arrow {
