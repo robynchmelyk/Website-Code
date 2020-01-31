@@ -86,7 +86,7 @@ nav {
 }
 
 header {
-  margin-bottom: .5rem;
+  margin-bottom: .25rem;
   color: #1E1E1E;
   padding-top: .5rem;
 }
@@ -946,7 +946,7 @@ a.photographer-link:hover {
   }
 
   header {
-    margin-bottom: .75rem;
+    margin-bottom: .55rem;
     padding-top: .75rem;
   }
 
@@ -1261,7 +1261,7 @@ a.photographer-link:hover {
   header {
     padding-right: 16px;
     padding-top: 1.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: .75rem;
   }
 
   p {
