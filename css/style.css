@@ -586,8 +586,7 @@ h2.section-titles:after {
 }
 
 span.highlight {
-  border-bottom: solid 1.5px #00ff97;
-  border
+  border-bottom: solid 2px #00ff97;
 }
 
 .scroll-transition-fade {
@@ -966,6 +965,10 @@ a.photographer-link:hover {
 
   .flex-md {
     display: flex;
+  }
+
+  span.highlight {
+    border-bottom: solid 2.5px #00ff97;
   }
 
   .below-img-details {
