@@ -408,7 +408,7 @@ p.bio-body-text {
 }
 
 .coloured-section {
-  background-color: #f9f9f9;
+  background-color: #fcfcfc;
   padding: 0 .75rem;
 }
 
@@ -441,8 +441,8 @@ p.bio-body-text {
 .grey-updown-border {
   border-bottom: solid 1px grey;
   border-top: solid 1px grey;
-  font-size: 2.1rem;
-  line-height: 2.4rem;
+  font-size: 1.9rem;
+  line-height: 2.35rem;
   color: black;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -1113,8 +1113,8 @@ a.photographer-link:hover {
   }
 
   .grey-updown-border {
-    font-size: 3rem;
-    line-height: 3.5rem;
+    font-size: 2.75rem;
+    line-height: 3.4rem;
     color: black;
     margin-top: 3rem;
     margin-bottom: 3rem;
