@@ -223,14 +223,14 @@ p.site-logo {
 
 h2.masthead-text {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding: 1% 0;
   margin: 0;
   margin-bottom: .25rem;
   font-weight: 400;
   justify-content: center;
   text-align: left;
-  line-height: 1.25;
+  line-height: 1.55;
   letter-spacing: 0.01rem;
 }
 
@@ -1279,7 +1279,8 @@ a.photographer-link:hover {
     padding-bottom: 0rem;
   }
 
-  .project-box {}
+  .project-box {
+  }
 
   .pagenav-item {
     margin-left: 32px;
