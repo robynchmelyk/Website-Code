@@ -1266,7 +1266,7 @@ a.photographer-link:hover {
 
   p {
     line-height: 2.2rem;
-    font-size: 24px;
+    font-size: 21.25px;
     font-family: 'Muli', sans-serif;
   }
 
@@ -1280,6 +1280,10 @@ a.photographer-link:hover {
   }
 
   .project-box {
+  }
+
+  .project-row {
+    width: 75%;
   }
 
   .pagenav-item {
