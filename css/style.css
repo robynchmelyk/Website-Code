@@ -1210,6 +1210,7 @@ a.photographer-link:hover {
     font-size: 2.2rem;
     justify-content: center;
     line-height: 1.25;
+      font-weight: 600;
   }
 
   label.contact-form {
