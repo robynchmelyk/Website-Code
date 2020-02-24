@@ -154,7 +154,7 @@ h6 {
 
 p {
   line-height: 1.65rem;
-  font-size: 19px;
+  font-size: 18px;
   font-family: 'Muli', sans-serif;
   font-weight: 500;
 }
@@ -184,7 +184,7 @@ p.body-text {
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  color: grey;
+  color: #4d4d4d;
   font-size: 100%;
   text-align: left;
 }
@@ -213,12 +213,31 @@ a.navigation-button {
 p.site-logo {
   font-weight: 700;
   font-size: 21px;
+  color: black;
+  opacity: .9;
 }
 
 .green-line {
   width: 5px;
   height: 10px;
   background-color: #00ff97;
+}
+
+.masthead-row {
+  height: 93vh;
+}
+
+.masthead-img {
+  position: absolute;
+  top: 0px;
+  z-index: -10;
+height: 100%;
+  width: auto;
+  max-width: 200%;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+  background-size: cover;
 }
 
 h2.masthead-text {
@@ -232,6 +251,11 @@ h2.masthead-text {
   text-align: left;
   line-height: 1.55;
   letter-spacing: 0.01rem;
+}
+
+.rc-logotype {
+  max-width: 50px;
+  height: auto;
 }
 
 .padding-right {
@@ -339,6 +363,10 @@ h4.artist-footer-detailing {
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease-out;
+}
+
+.tablet-only {
+  display: none;
 }
 
 .project-box:hover {
@@ -870,14 +898,17 @@ button.submit-button:hover {
 }
 
 .social-media-icon {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 30px;
   transition: all 0.3s ease-in-out;
 }
 
 .social-media-icon:hover {
   transform: scale(1.25);
   background-color: #00ff97;
+  opacity: .75;
 }
 
 .submit-button {
@@ -991,6 +1022,10 @@ a.photographer-link:hover {
     display: flex;
   }
 
+  .tablet-only {
+    display: block;
+  }
+
   .project-box:hover {}
 
   .project-item-rationale {
@@ -1031,6 +1066,14 @@ a.photographer-link:hover {
   .biography-text-box {
     padding: .5rem 1.75rem;
     text-align: left;
+  }
+
+  .social-media-icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    transition: all 0.3s ease-in-out;
   }
 
   .bottom-margin {
@@ -1284,7 +1327,11 @@ a.photographer-link:hover {
   }
 
   .project-row {
-    height: 55%;
+    width: 75%;
+  }
+
+  .tablet-only {
+    display: none;
   }
 
   .pagenav-item {
@@ -1303,6 +1350,14 @@ a.photographer-link:hover {
   .below-img-details {
     padding: 2rem 0;
     padding-top: 3.5rem;
+  }
+
+  .social-media-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 30px;
+    transition: all 0.3s ease-in-out;
   }
 
   .site-logo-image {
@@ -1407,7 +1462,7 @@ a.photographer-link:hover {
   }
 
   p.site-logo {
-    margin-right: 2rem;
+    margin-right: 3rem;
     position: relative;
   }
 
