@@ -139,10 +139,9 @@ h4 {
 h5 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.25rem;
+  line-height: 17px;
   margin-top: .25rem;
-  margin-bottom: .5rem;
-  padding-top: .5rem;
+  padding-top: .25rem;
 }
 
 h6 {
@@ -154,7 +153,7 @@ h6 {
 
 p {
   line-height: 1.65rem;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Muli', sans-serif;
   font-weight: 500;
 }
@@ -354,15 +353,30 @@ h4.artist-footer-detailing {
 
 .project-box {
   display: block;
-  background-color: #f1f7f0;
   color: black;
   margin-top: .75rem;
   width: 100%;
   overflow: hidden;
-  background: linear-gradient(to right, #00ff97 50%, #f1f7f0 50%);
+  background: linear-gradient(to right, #00ff97 50%, white 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease-out;
+}
+
+.project-box-right {
+  display: block;
+  color: black;
+  margin-top: .75rem;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to left, #00ff97 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .5s ease-out;
+}
+
+.project-box-right:hover {
+  background-position: right bottom;
 }
 
 .tablet-only {
@@ -590,7 +604,6 @@ h4.related-project-title:hover {
 
 p.project-description-text {
   text-align: left;
-  margin-bottom: 2.5%;
 }
 
 h3.buy-shape-text {
@@ -665,9 +678,11 @@ p.project-item-rationale {
 
 .project-description-subheader {
   text-transform: uppercase;
-  font-size: 125%;
+  font-size: 16px;
   margin-top: 1rem;
   text-align: left;
+  font-weight: 600;
+ letter-spacing: 1.2;
 }
 
 h3.project-description-subheader {
@@ -972,7 +987,7 @@ a.photographer-link:hover {
 
   p {
     line-height: 1.9rem;
-    font-size: 21px;
+    font-size: 17.5px;
     font-family: 'Muli', sans-serif;
   }
 
@@ -984,6 +999,8 @@ a.photographer-link:hover {
   h2.page-title {
     font-size: 2rem;
     line-height: 2.4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .padding {
@@ -1013,12 +1030,20 @@ a.photographer-link:hover {
     margin-top: .75rem;
   }
 
+  p.project-description-text {
+    text-align: left;
+  }
+
   .align-center {
     align-items: center;
     justify-content: center;
   }
 
   .project-box {
+    display: flex;
+  }
+
+  .project-box-right {
     display: flex;
   }
 
@@ -1030,6 +1055,11 @@ a.photographer-link:hover {
 
   .project-item-rationale {
     padding-right: 3rem;
+  }
+
+  .project-side-text {
+    font-size: 16px;
+    margin-top: 6rem;
   }
 
   h2.project-title {
@@ -1297,9 +1327,8 @@ a.photographer-link:hover {
 
   h5 {
     font-weight: bold;
-    font-size: 1.15rem;
-    line-height: 1.85rem;
-    margin-bottom: .5rem;
+    font-size: 19px;
+    line-height: 1.25rem;
   }
 
   header {
@@ -1309,8 +1338,8 @@ a.photographer-link:hover {
   }
 
   p {
-    line-height: 2.2rem;
-    font-size: 21.25px;
+    line-height: 24px;
+    font-size: 18px;
     font-family: 'Muli', sans-serif;
   }
 
@@ -1327,7 +1356,6 @@ a.photographer-link:hover {
   }
 
   .project-row {
-    width: 75%;
   }
 
   .tablet-only {
@@ -1341,6 +1369,8 @@ a.photographer-link:hover {
   h2.page-title {
     font-size: 2.75rem;
     line-height: 2.9rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .padding-right {
@@ -1350,6 +1380,11 @@ a.photographer-link:hover {
   .below-img-details {
     padding: 2rem 0;
     padding-top: 3.5rem;
+  }
+
+  .project-side-text {
+    font-size: 16px;
+    margin-top: 7.9rem;
   }
 
   .social-media-icon {
@@ -1395,8 +1430,9 @@ a.photographer-link:hover {
 
   .project-description-subheader {
     text-transform: uppercase;
-    font-size: 155%;
+    font-size: 17px;
     margin-top: 1.5rem;
+
   }
 
   h3.project-description-subheader {
@@ -1464,6 +1500,7 @@ a.photographer-link:hover {
   p.site-logo {
     margin-right: 3rem;
     position: relative;
+    top: 3.5px;
   }
 
   h4.more-info-text {
