@@ -57,7 +57,7 @@
   height: 5px;
   margin: 6px 0;
   /*Change the hamburger icon colour here*/
-  background-color: black;
+  background-color: #282828;
 }
 
 .hamburger-open {
@@ -113,7 +113,7 @@
   right: 6px;
   font-size: 4rem;
   transform: rotate(45deg);
-  color: black;
+    color: #282828;
   font-weight: 400;
 }
 
@@ -126,7 +126,7 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   /*Adjust link colour here */
-  color: black;
+    color: #282828;
   /* Display block instead of inline */
   display: block;
   /* Transition effect on hover */
@@ -137,7 +137,7 @@
 
 a.is-active-mobile {
   font-style: italic;
-  color: black;
+    color: #282828;
 }
 
 
