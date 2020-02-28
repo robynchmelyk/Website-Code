@@ -66,6 +66,7 @@ html {
   line-height: 1.5rem;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  color: #282828;
 }
 
 main {
@@ -81,7 +82,7 @@ img {
 nav {
   font-size: 1.75rem;
   text-align: center;
-  color: black;
+    color: #282828;
   text-decoration: none;
 }
 
@@ -123,7 +124,7 @@ h2 {
 
 h3 {
   Font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5rem;
 }
@@ -159,7 +160,6 @@ p {
 }
 
 footer {
-  margin-top: 1.4rem;
   padding-top: .5rem;
 }
 
@@ -177,7 +177,9 @@ p.body-text {
   font-weight: 700;
 }
 
-.masthead-row {}
+.masthead-row {
+  height: 93vh;
+}
 
 .pagenav--items {
   display: flex;
@@ -188,12 +190,20 @@ p.body-text {
   text-align: left;
 }
 
+.grey-background {
+  background-color: #FCFCFC;
+}
+
 p.art-details {
   padding: 5px 2.5px;
 }
 
 .top-margin {
   margin-top: 2rem;
+}
+
+.centered {
+  text-align: center;
 }
 
 .inline {
@@ -204,15 +214,30 @@ a.navigation-button {
   margin-bottom: .5rem;
 }
 
+.pink-section {
+  background: #F5E4E4;
+}
+
 .desktop-pagenav-button:hover {
   font-style: italic;
   color: black;
 }
 
+.related-right-text {
+  text-align: right;
+}
+
+.expanded-section {
+  background-color: #282828;;
+  color: white;
+  padding: 8px;
+  display: inline;
+}
+
 p.site-logo {
   font-weight: 700;
   font-size: 21px;
-  color: black;
+    color: #282828;
   opacity: .9;
 }
 
@@ -223,7 +248,11 @@ p.site-logo {
 }
 
 .masthead-row {
-  height: 93vh;
+  height: 94vh;
+}
+
+.expanded-text-box {
+
 }
 
 .masthead-img {
@@ -327,9 +356,13 @@ h2.masthead-text {
   }
 }
 
+h4.related-projects-text {
+    font-size: 1.2rem;
+}
+
 .artist-footer-details {
   font-weight: 700;
-  color: black;
+  color: #282828;
   font-size: 2rem;
   margin-top: .5rem;
   padding-top: .5rem;
@@ -338,7 +371,7 @@ h2.masthead-text {
 
 h3.artist-footer-detail {
   font-weight: 700;
-  color: black;
+    color: #282828;
   line-height: 1;
   font-size: 2.2rem;
 }
@@ -353,7 +386,7 @@ h4.artist-footer-detailing {
 
 .project-box {
   display: block;
-  color: black;
+    color: #282828;
   margin-top: .75rem;
   width: 100%;
   overflow: hidden;
@@ -365,7 +398,7 @@ h4.artist-footer-detailing {
 
 .project-box-right {
   display: block;
-  color: black;
+  color: #282828;
   margin-top: .75rem;
   width: 100%;
   overflow: hidden;
@@ -383,6 +416,26 @@ h4.artist-footer-detailing {
   display: none;
 }
 
+.big-arrow {
+  font-size: 4rem;
+}
+
+.big-arrow-right {
+  font-size: 4rem;
+  align-content: flex-end;
+}
+
+.related-projects-box {
+  padding: .5rem;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.related-projects-item:hover {
+  color:  #00ff97;
+  transition: all .3s ease-out;
+}
+
 .project-box:hover {
   background-position: left bottom;
 }
@@ -391,6 +444,10 @@ h4.artist-footer-detailing {
   color: #00ff97;
   font-weight: 700;
   filter: brightness(.9);
+}
+
+.green-section {
+    border-bottom: solid 12px #00ff97;
 }
 
 .orange {
@@ -411,6 +468,13 @@ h4.artist-footer-detailing {
 
 .yellow {
   color: #dbda42;
+}
+
+h3.project-large-text {
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
 
 .biography-text-box {
@@ -446,7 +510,7 @@ p.bio-body-text {
 }
 
 .black {
-  color: black;
+  color: #282828;
 }
 
 .coloured-section {
@@ -485,7 +549,7 @@ p.bio-body-text {
   border-top: solid 1px grey;
   font-size: 1.9rem;
   line-height: 2.35rem;
-  color: black;
+  color: #282828;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   padding: 1rem .5rem;
@@ -531,6 +595,8 @@ h2.project-title {
   line-height: 1.3rem;
   margin-bottom: .4rem;
   margin-top: .75rem;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
 }
 
 h4.related-project-title {
@@ -538,10 +604,11 @@ h4.related-project-title {
   margin-bottom: 1rem;
   font-size: 16px;
   transition: all 0.3s ease-in-out;
+  font-weight: 500;
 }
 
 h4.related-project-title:hover {
-  transform: scale(1.15);
+  opacity: .85;
 }
 
 .project-img {
@@ -642,8 +709,8 @@ span.highlight {
 
 h4.more-info-text {
   font-weight: 400;
-  color: black;
-  border: solid 1px black;
+    color: #282828;
+  border: solid 1px #282828;
   text-align: center;
   align-items: flex-end;
   position: relative;
@@ -654,15 +721,17 @@ h4.more-info-text {
   margin-top: .25rem;
   z-index: 11;
   width: 100%;
-  background-color: #f1f7f0;
+  background-color: white;
   transition: all 0.3s ease-in-out;
-  filter: drop-shadow(3px 3px 0.25rem grey);
+  filter: drop-shadow(0px 0px 0.75rem #DDDDDD);
 }
 
 h4.more-info-text:hover {
   font-style: italic;
+  font-weight: 500;
   background-color: #00ff97;
   border: solid 1px black;
+  color: black;
 }
 
 p.project-item-rationale {
@@ -712,16 +781,16 @@ h4.business-objective-title {
 }
 
 h4.rationale-title {
-  font-size: 1.6rem;
-  line-height: 1.95rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
   padding-top: .5rem;
 }
 
 h3.project-description-subtitle {
   font-size: .85rem;
   line-height: 1.4rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: .75rem;
   padding-bottom: .35rem;
   color: #000f10;
@@ -791,11 +860,10 @@ h3.project-title-subheader {
 }
 
 h4.section-title {
-  font-size: 1.75rem;
-  line-height: 2rem;
+  font-size: 18px;
+  line-height: 21px;
   text-transform: uppercase;
   margin-top: 1.4rem;
-  padding-bottom: .5rem;
   font-weight: 700;
 }
 
@@ -949,6 +1017,10 @@ a.photographer-link:hover {
   display: inherit;
 }
 
+.video-section {
+  padding: 1rem 0;
+}
+
 .socialmedia-item {
   margin-bottom: .25rem;
   display: flex;
@@ -977,7 +1049,6 @@ a.photographer-link:hover {
     font-weight: 600;
     font-size: 2rem;
     line-height: 2.4rem;
-    margin-bottom: .9rem;
   }
 
   h5 {
@@ -994,6 +1065,12 @@ a.photographer-link:hover {
   header {
     margin-bottom: .55rem;
     padding-top: .75rem;
+  }
+
+  p.body-text {
+    text-align: left;
+    margin-bottom: .75rem;
+    padding: 0 0px;
   }
 
   h2.page-title {
@@ -1015,6 +1092,49 @@ a.photographer-link:hover {
     display: flex;
   }
 
+  .video-section {
+    padding: 5.75rem 0;
+  }
+
+.expanded-section {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  background-color: #282828;
+  color: white;
+  display: flex;
+}
+
+.expanded-section-title {
+  padding-bottom: 3rem;
+}
+
+h4.section-title {
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 0rem;
+  padding-right: 1.75rem;
+  text-align: right;
+  padding-top: 5px;
+}
+
+h4.section-title-center {
+  margin-top: 0rem;
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 5px;
+}
+
+h3.project-large-text {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-bottom: .4rem;
+}
+
+.expanded-text-box {
+  padding-right: 1rem;
+}
+
   span.highlight {
     border-bottom: solid 2.5px #00ff97;
   }
@@ -1022,6 +1142,23 @@ a.photographer-link:hover {
   .below-img-details {
     padding: 1.5rem 0;
 
+  }
+
+  .big-arrow {
+    font-size: 5rem;
+  }
+
+  .big-arrow-right {
+    font-size: 5rem;
+  }
+
+  .related-projects-box {
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+  }
+
+  h4.related-projects-text {
+      font-size: 1.75rem;
   }
 
   h3.project-title-subheader {
@@ -1063,9 +1200,9 @@ a.photographer-link:hover {
   }
 
   h2.project-title {
-    line-height: 1.75rem;
+    line-height: 1.9rem;
     margin-bottom: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
   }
 
@@ -1079,7 +1216,7 @@ a.photographer-link:hover {
   }
 
   .business-objectives {
-    padding-top: .5rem;
+    padding-top: 1.75rem;
     padding-bottom: 1.75rem;
   }
 
@@ -1127,9 +1264,9 @@ a.photographer-link:hover {
   h4.more-info-text {
     margin-top: 2.25rem;
     position: relative;
-    color: black;
-    background-color: #f1f7f0;
-    border: solid 1px black;
+    color: #282828;
+    background-color: white;
+    border: solid 1px #282828;
     padding: 2.5px;
     padding-right: 2.5px;
     padding-left: 2.5px;
@@ -1141,20 +1278,18 @@ a.photographer-link:hover {
   }
 
   h4.rationale-title {
-    font-size: 2rem;
-    line-height: 2.4rem;
-    margin-bottom: .9rem;
-    padding-top: 1rem;
-    margin-top: .75rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding-bottom: 0rem;
+    margin-top: 0rem;
+    padding-top: 0rem;
   }
 
   h4.section-title {
-    font-size: 2.6rem;
-    line-height: 2rem;
+    font-size: 22px;
+    line-height: 28px;
     text-transform: uppercase;
-    margin-top: 3.25rem;
-    margin-bottom: 2rem;
-    padding-bottom: .5rem;
+    padding-right: 3rem;
   }
 
   h4.top-section-title {
@@ -1188,10 +1323,10 @@ a.photographer-link:hover {
   .grey-updown-border {
     font-size: 2.75rem;
     line-height: 3.4rem;
-    color: black;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: 2rem 1rem;
+      color: #282828;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      padding: 2.5rem 0;
   }
 
   h3.project-description-subheader {
@@ -1320,8 +1455,6 @@ a.photographer-link:hover {
     font-weight: 600;
     font-size: 2.25rem;
     line-height: 2.4rem;
-    margin-bottom: .9rem;
-    padding-top: 1.75rem;
     padding-bottom: .5rem;
   }
 
@@ -1338,28 +1471,51 @@ a.photographer-link:hover {
   }
 
   p {
-    line-height: 24px;
-    font-size: 18px;
+    line-height: 26px;
+    font-size: 17.5px;
     font-family: 'Muli', sans-serif;
   }
 
   h4.rationale-title {
-    font-weight: 600;
-    font-size: 2.25rem;
-    line-height: 2.4rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
     margin-bottom: .5rem;
-    padding-top: 1.75rem;
     padding-bottom: 0rem;
+    margin-top: 0rem;
+    padding-top: 0rem;
   }
 
   .project-box {
   }
 
   .project-row {
+      margin-top: .75rem;
+  }
+
+  h4.related-projects-text {
+    padding-top: 0rem;
+      font-size: 2rem;
+  }
+
+  .expanded-text-box {
+    padding-right: 2.5%;
   }
 
   .tablet-only {
     display: none;
+  }
+
+  .big-arrow {
+    font-size: 6rem;
+  }
+
+  .big-arrow-right {
+    font-size: 6rem;
+  }
+
+  .related-projects-box {
+    padding: 1rem 1.5rem;
+    margin-top: 3rem;
   }
 
   .pagenav-item {
@@ -1373,8 +1529,23 @@ a.photographer-link:hover {
     padding-bottom: 3rem;
   }
 
+  .expanded-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 3rem;
+    background-color: #282828;
+    color: white;
+    display: flex;
+  }
+
   .padding-right {
     padding-right: 1.25rem;
+  }
+
+  h3.project-large-text {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin-bottom: .5rem;
   }
 
   .below-img-details {
@@ -1460,7 +1631,7 @@ a.photographer-link:hover {
 
   .pagenav-button:hover {
     transform: scale(1.2);
-    border-bottom: 9px solid black;
+    border-bottom: 9px solid #282828;
   }
 
   .tablet-navigation-button {
@@ -1472,7 +1643,7 @@ a.photographer-link:hover {
   }
 
   .business-objectives {
-    padding-top: .5rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
   }
 
