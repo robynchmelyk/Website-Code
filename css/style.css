@@ -1062,6 +1062,7 @@ a.photographer-link:hover {
 
   h3 {
     font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   h5 {
@@ -1480,6 +1481,7 @@ h3.project-large-text {
 
   h3 {
     font-size: 1.45rem;
+    line-height: 2rem;
   }
 
   h4 {
