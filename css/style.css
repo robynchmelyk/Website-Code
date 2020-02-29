@@ -363,6 +363,11 @@ h4.related-projects-text {
     font-size: 1.2rem;
 }
 
+h3.project-small-title {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
 .artist-footer-details {
   font-weight: 700;
   color: #282828;
@@ -476,7 +481,7 @@ h4.artist-footer-detailing {
 h3.project-large-text {
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   line-height: 1.8rem;
 }
 
@@ -1055,6 +1060,10 @@ a.photographer-link:hover {
     line-height: 2.4rem;
   }
 
+  h3 {
+    font-size: 1.25rem;
+  }
+
   h5 {
     font-weight: bold;
     font-size: 1rem;
@@ -1122,6 +1131,10 @@ a.photographer-link:hover {
   padding-bottom: 3rem;
 }
 
+h3.project-small-title {
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
 
 h4.section-title {
   font-size: 18px;
@@ -1142,7 +1155,7 @@ h4.section-title-center {
 h3.project-large-text {
   font-size: 1.8rem;
   line-height: 2.5rem;
-  margin-bottom: .4rem;
+  margin-bottom: .75rem;
 }
 
 .expanded-text-box {
@@ -1465,6 +1478,10 @@ h3.project-large-text {
     padding-top: 6.5px;
   }
 
+  h3 {
+    font-size: 1.45rem;
+  }
+
   h4 {
     font-weight: 600;
     font-size: 2.25rem;
@@ -1499,6 +1516,11 @@ h3.project-large-text {
     padding-top: 0rem;
   }
 
+  h3.project-small-title {
+    margin-top: 2rem;
+    margin-bottom: .75rem;
+  }
+
   .project-box {
   }
 
@@ -1517,7 +1539,7 @@ h3.project-large-text {
   }
 
   .expanded-text-box {
-    padding-right: 2.5%;
+    padding-right: 8%;
   }
 
   .tablet-only {
@@ -1561,9 +1583,9 @@ h3.project-large-text {
   }
 
   h3.project-large-text {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     line-height: 3rem;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
   }
 
   .below-img-details {
