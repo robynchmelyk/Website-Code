@@ -178,7 +178,10 @@ p.body-text {
 }
 
 .masthead-row {
-  height: 93vh;
+  height: 91vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 .pagenav--items {
@@ -230,7 +233,7 @@ a.navigation-button {
 .expanded-section {
   background-color: #282828;;
   color: white;
-  padding: 8px;
+  padding: 8px 0px;
   display: inline;
 }
 
@@ -245,10 +248,6 @@ p.site-logo {
   width: 5px;
   height: 10px;
   background-color: #00ff97;
-}
-
-.masthead-row {
-  height: 94vh;
 }
 
 .expanded-text-box {
@@ -1103,15 +1102,21 @@ a.photographer-link:hover {
 .expanded-section {
   padding-top: 2rem;
   padding-bottom: 4rem;
-  padding-left: 4rem;
   background-color: #282828;
   color: white;
   display: flex;
 }
 
+.masthead-row {
+  height: 94vh;
+  overflow: hidden;
+  width: 100%;
+}
+
 .expanded-section-title {
   padding-bottom: 3rem;
 }
+
 
 h4.section-title {
   font-size: 18px;
@@ -1501,6 +1506,11 @@ h3.project-large-text {
       font-size: 2rem;
   }
 
+  .masthead-row {
+    height: 94vh;
+    overflow: hidden;
+  }
+
   .expanded-text-box {
     padding-right: 2.5%;
   }
@@ -1536,7 +1546,6 @@ h3.project-large-text {
   .expanded-section {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    padding-left: 3rem;
     background-color: #282828;
     color: white;
     display: flex;
