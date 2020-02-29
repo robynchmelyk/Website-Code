@@ -523,7 +523,7 @@ p.bio-body-text {
 
 .coloured-section {
   background-color: #f9f9f9;
-  padding: 0 .75rem;
+  margin: 0 -.75rem;
 }
 
 .dot {
@@ -1114,6 +1114,11 @@ a.photographer-link:hover {
     padding: 5.75rem 0;
   }
 
+  .coloured-section {
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+
 .expanded-section {
   padding-top: 2rem;
   padding-bottom: 4rem;
@@ -1126,6 +1131,10 @@ a.photographer-link:hover {
   height: 94vh;
   overflow: hidden;
   width: 100%;
+}
+
+.project-img-margin-bottom {
+  padding-bottom: 3.25rem;
 }
 
 .expanded-section-title {
@@ -1412,6 +1421,7 @@ h3.project-large-text {
     margin-right: 2rem;
     position: relative;
     bottom: 1.5px;
+    padding-left: .5rem;
   }
 
   .desktop-pagenav-button {
@@ -1714,6 +1724,7 @@ h3.project-large-text {
     margin-right: 3rem;
     position: relative;
     top: 3.5px;
+    padding-left: 1rem;
   }
 
   h4.more-info-text {
