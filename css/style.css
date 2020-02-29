@@ -153,7 +153,7 @@ h6 {
 }
 
 p {
-  line-height: 1.65rem;
+  line-height: 22px;
   font-size: 16px;
   font-family: 'Muli', sans-serif;
   font-weight: 500;
@@ -166,7 +166,7 @@ footer {
 p.body-text {
   text-align: left;
   margin-bottom: .75rem;
-  padding: 0 6px;
+      padding-right: 10px;
 }
 
 .site-logo-image {
@@ -202,7 +202,7 @@ p.art-details {
 }
 
 .top-margin {
-  margin-top: 2rem;
+  margin-top: .5rem;
 }
 
 .centered {
@@ -233,7 +233,7 @@ a.navigation-button {
 .expanded-section {
   background-color: #282828;;
   color: white;
-  padding: 8px 0px;
+  padding: 1.5rem 12px;
   display: inline;
 }
 
@@ -269,6 +269,12 @@ height: 100%;
   overflow: hidden;
   justify-content: center;
   background-size: cover;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 h2.masthead-text {
@@ -366,6 +372,7 @@ h4.related-projects-text {
 h3.project-small-title {
   font-size: 1.1rem;
   margin-top: 1rem;
+  margin-bottom: .3rem;
 }
 
 .artist-footer-details {
@@ -455,7 +462,7 @@ h4.artist-footer-detailing {
 }
 
 .green-section {
-    border-bottom: solid 12px #00ff97;
+    border-bottom: solid 7px #00ff97;
 }
 
 .orange {
@@ -483,6 +490,7 @@ h3.project-large-text {
   font-family: 'Poppins', sans-serif;
   font-size: 1.4rem;
   line-height: 1.8rem;
+  margin-bottom: .75rem;
 }
 
 .biography-text-box {
@@ -522,8 +530,6 @@ p.bio-body-text {
 }
 
 .coloured-section {
-  background-color: #f9f9f9;
-  margin: 0 -.75rem;
 }
 
 .dot {
@@ -607,6 +613,10 @@ h2.project-title {
   transition: all 0.3s ease-in-out;
 }
 
+.project-img-margin-bottom {
+  padding-bottom: 1.4rem;
+}
+
 h4.related-project-title {
   line-height: 1.2rem;
   margin-bottom: 1rem;
@@ -679,6 +689,8 @@ h4.related-project-title:hover {
 
 p.project-description-text {
   text-align: left;
+  padding-right: 10%;
+  font-size: 14px;
 }
 
 h3.buy-shape-text {
@@ -702,7 +714,7 @@ h2.section-titles:after {
 }
 
 span.highlight {
-  border-bottom: solid 2px #00ff97;
+  border-bottom: solid 3px #00ff97;
 }
 
 .scroll-transition-fade {
@@ -749,16 +761,16 @@ p.project-item-rationale {
 }
 
 .business-objectives {
-  padding-top: .5rem;
-  padding-bottom: 1rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
 }
 
 .project-description-subheader {
   text-transform: uppercase;
-  font-size: 16px;
-  margin-top: 1rem;
+  font-size: 14px;
+  margin-top: .6rem;
   text-align: left;
-  font-weight: 600;
+  font-weight: 500;
  letter-spacing: 1.2;
 }
 
@@ -792,7 +804,7 @@ h4.rationale-title {
   font-size: 1.2rem;
   line-height: 1.5rem;
   font-weight: 500;
-  padding-top: .5rem;
+  padding-top: .2rem;
 }
 
 h3.project-description-subtitle {
@@ -841,6 +853,13 @@ h2.page-title {
   line-height: 1.85rem;
 }
 
+h2.personal-projects-title {
+  font-size: 1.55rem;
+  font-weight: 700;
+  line-height: 1.85rem;
+  padding-top: 1.5rem;
+}
+
 h3.project-title-subheader {
   font-size: 115%;
   margin-bottom: 1rem;
@@ -871,7 +890,7 @@ h4.section-title {
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
-  margin-top: 1.4rem;
+  margin-top: .4rem;
   font-weight: 700;
 }
 
@@ -1084,7 +1103,7 @@ a.photographer-link:hover {
   p.body-text {
     text-align: left;
     margin-bottom: .75rem;
-    padding: 0 0px;
+    padding-right: 0;
   }
 
   h2.page-title {
@@ -1092,6 +1111,13 @@ a.photographer-link:hover {
     line-height: 2.4rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  h2.personal-projects-title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
   }
 
   .padding {
@@ -1125,6 +1151,8 @@ a.photographer-link:hover {
   background-color: #282828;
   color: white;
   display: flex;
+ padding-left: 0;
+ padding-right: 0;
 }
 
 .masthead-row {
@@ -1146,6 +1174,10 @@ h3.project-small-title {
   margin-bottom: .5rem;
 }
 
+.green-section {
+    border-bottom: solid 11px #00ff97;
+}
+
 h4.section-title {
   font-size: 18px;
   line-height: 21px;
@@ -1153,6 +1185,7 @@ h4.section-title {
   padding-right: 1.75rem;
   text-align: right;
   padding-top: 5px;
+  margin-top: 1.4rem;
 }
 
 h4.section-title-center {
@@ -1173,7 +1206,7 @@ h3.project-large-text {
 }
 
   span.highlight {
-    border-bottom: solid 2.5px #00ff97;
+    border-bottom: solid 3.5px #00ff97;
   }
 
   .below-img-details {
@@ -1206,6 +1239,7 @@ h3.project-large-text {
 
   p.project-description-text {
     text-align: left;
+    font-size: 17.5px;
   }
 
   .align-center {
@@ -1285,7 +1319,7 @@ h3.project-large-text {
   }
 
   .top-margin {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
   }
 
   .site-logo-image {
@@ -1558,6 +1592,11 @@ h3.project-large-text {
     display: none;
   }
 
+  p.project-description-text {
+    text-align: left;
+    font-size: 18.25px;
+  }
+
   .big-arrow {
     font-size: 6rem;
   }
@@ -1580,6 +1619,13 @@ h3.project-large-text {
     line-height: 2.9rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  h2.personal-projects-title {
+    font-size: 2.75rem;
+    line-height: 2.9rem;
+    padding-top: 3rem;
+    padding-bottom: .5rem;
   }
 
   .expanded-section {
