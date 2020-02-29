@@ -1185,7 +1185,7 @@ h4.section-title {
   padding-right: 1.75rem;
   text-align: right;
   padding-top: 5px;
-  margin-top: 1.4rem;
+  margin-top: 0rem;
 }
 
 h4.section-title-center {
@@ -1353,7 +1353,7 @@ h3.project-large-text {
     line-height: 1.8rem;
     padding-bottom: 0rem;
     margin-top: 0rem;
-    padding-top: 0rem;
+  padding-top: .4rem;
   }
 
   h4.section-title {
