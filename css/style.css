@@ -146,10 +146,10 @@ h5 {
 }
 
 h6 {
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -230,8 +230,14 @@ a.navigation-button {
   text-align: right;
 }
 
+h5.personal-work-link {
+  font-weight: 500;
+  margin-top: 1rem;
+  line-height: 20px;
+}
+
 .expanded-section {
-  background-color: #282828;;
+  background-color: #282828;
   color: white;
   padding: 1.5rem 12px;
   display: inline;
@@ -723,7 +729,7 @@ span.highlight {
 
 .copyright-information {
   text-align: left;
-  margin-top: 2rem;
+  margin-top: 1.75rem;
   font-weight: 400;
 }
 
@@ -1089,6 +1095,12 @@ a.photographer-link:hover {
     font-size: 1rem;
   }
 
+  h6 {
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
   p {
     line-height: 27px;
     font-size: 19px;
@@ -1111,6 +1123,11 @@ a.photographer-link:hover {
     line-height: 2.4rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  h5.personal-work-link{
+    font-size: 15px;
+      line-height: 23px;
   }
 
   h2.personal-projects-title {
@@ -1143,6 +1160,16 @@ a.photographer-link:hover {
   .coloured-section {
     background-color: #f9f9f9;
     margin: 0;
+  }
+
+  .copyright-information {
+    margin-top: 1.2rem;
+  }
+
+  .artist-footer-details {
+    margin-top: 1.2rem;
+    padding-top: .5rem;
+    margin-bottom: .5rem;
   }
 
 .expanded-section {
@@ -1541,6 +1568,13 @@ h3.project-large-text {
     line-height: 1.25rem;
   }
 
+  h6 {
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+
   header {
     padding-right: 16px;
     padding-top: 1.5rem;
@@ -1579,6 +1613,10 @@ h3.project-large-text {
       font-size: 2rem;
   }
 
+  h5.personal-work-link{
+    font-size: 16.5px;
+  }
+
   .masthead-row {
     height: 94vh;
     overflow: hidden;
@@ -1608,6 +1646,16 @@ h3.project-large-text {
   .related-projects-box {
     padding: 1rem 1.5rem;
     margin-top: 3rem;
+  }
+
+  .copyright-information {
+    margin-top: 1.5rem;
+  }
+
+  .artist-footer-details {
+    margin-top: 1.75rem;
+    padding-top: .25rem;
+    margin-bottom: .5rem;
   }
 
   .pagenav-item {
