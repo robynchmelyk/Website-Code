@@ -221,6 +221,10 @@ a.navigation-button {
   background: #F5E4E4;
 }
 
+a.pagenav-button {
+  padding-top: 45px;
+}
+
 .desktop-pagenav-button:hover {
   font-style: italic;
   color: black;
@@ -1005,9 +1009,12 @@ button.submit-button:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.social-media-icon:hover {
-  transform: scale(1.25);
-  background-color: #00ff97;
+.mobile-social-media-icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 50px;
+  transition: all 0.3s ease-in-out;
   opacity: .75;
 }
 
@@ -1339,6 +1346,12 @@ h3.project-large-text {
     position: absolute;
     right: 30px;
     transition: all 0.3s ease-in-out;
+  }
+
+  .social-media-icon:hover {
+    transform: scale(1.25);
+    background-color: #00ff97;
+    opacity: .75;
   }
 
   .bottom-margin {
