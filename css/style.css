@@ -736,7 +736,6 @@ span.highlight {
 h4.more-info-text {
   font-weight: 400;
     color: #282828;
-  border: solid 1px #282828;
   text-align: center;
   align-items: flex-end;
   position: relative;
@@ -747,16 +746,12 @@ h4.more-info-text {
   margin-top: .25rem;
   z-index: 11;
   width: 100%;
-  background-color: white;
   transition: all 0.3s ease-in-out;
-  filter: drop-shadow(0px 0px 0.75rem #DDDDDD);
 }
 
 h4.more-info-text:hover {
   font-style: italic;
   font-weight: 500;
-  background-color: #00ff97;
-  border: solid 1px black;
   color: black;
 }
 
@@ -1363,8 +1358,6 @@ h3.project-large-text {
     margin-top: 2.25rem;
     position: relative;
     color: #282828;
-    background-color: white;
-    border: solid 1px #282828;
     padding: 2.5px;
     padding-right: 2.5px;
     padding-left: 2.5px;
