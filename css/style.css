@@ -412,10 +412,8 @@ h4.artist-footer-detailing {
   margin-top: .75rem;
   width: 100%;
   overflow: hidden;
-  background: linear-gradient(to right, #00ff97 50%, white 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
   transition: all .5s ease-out;
+  border-bottom: 2px solid #00ff97;
 }
 
 .project-box-right {
@@ -424,14 +422,8 @@ h4.artist-footer-detailing {
   margin-top: .75rem;
   width: 100%;
   overflow: hidden;
-  background: linear-gradient(to left, #00ff97 50%, white 50%);
-  background-size: 200% 100%;
-  background-position: left bottom;
   transition: all .5s ease-out;
-}
-
-.project-box-right:hover {
-  background-position: right bottom;
+    border-bottom: 2px solid #00ff97;
 }
 
 .tablet-only {
@@ -456,10 +448,6 @@ h4.artist-footer-detailing {
 .related-projects-item:hover {
   color:  #00ff97;
   transition: all .3s ease-out;
-}
-
-.project-box:hover {
-  background-position: left bottom;
 }
 
 .green {
@@ -721,7 +709,7 @@ h2.section-titles:after {
 }
 
 span.highlight {
-  border-bottom: solid 3px #00ff97;
+  border-bottom: solid 2px #00ff97;
 }
 
 .scroll-transition-fade {
@@ -815,7 +803,7 @@ h3.project-description-subtitle {
   font-weight: 400;
   margin-bottom: .75rem;
   padding-bottom: .35rem;
-  color: #959595;
+  color: #444444;
 }
 
 h2.bio-header-text {
@@ -1202,10 +1190,10 @@ h3.project-small-title {
 }
 
 h4.section-title {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 21px;
   margin-top: 0rem;
-  padding-right: 1.75rem;
+  padding-right: 1.25rem;
   text-align: right;
   padding-top: 5px;
   margin-top: 0rem;
@@ -1272,17 +1260,33 @@ h3.project-large-text {
 
   .project-box {
     display: flex;
+    background: linear-gradient(to right, #00ff97 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+      border-bottom: 0px;
   }
 
   .project-box-right {
     display: flex;
+    background: linear-gradient(to left, #00ff97 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    border-bottom: 0px;
+  }
+
+  .project-box-right:hover {
+    background-position: right bottom;
+  }
+
+  .project-box:hover {
+    background-position: left bottom;
   }
 
   .tablet-only {
     display: block;
   }
 
-  .project-box:hover {}
+
 
   .project-item-rationale {
     padding-right: 3rem;
@@ -1476,7 +1480,7 @@ h3.project-large-text {
   p.site-logo {
     margin-right: 2rem;
     position: relative;
-    bottom: 1.5px;
+    top: 3px;
     padding-left: .5rem;
   }
 
