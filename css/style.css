@@ -1362,7 +1362,7 @@ h3.project-large-text {
     padding: 2.5px;
     padding-right: 2.5px;
     padding-left: 2.5px;
-    font-size: .85rem;
+    font-size: 16px;
     margin-top: 1rem;
     z-index: 11;
     width: 60%;
@@ -1819,7 +1819,7 @@ h3.project-large-text {
 
   h4.more-info-text {
     position: relative;
-    font-size: .85rem;
+    font-size: 17px;
     margin-top: 1rem;
     z-index: 11;
     width: 60%;
