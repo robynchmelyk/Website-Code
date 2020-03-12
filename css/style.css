@@ -516,6 +516,10 @@ h3.project-large-text {
   font-size:
 }
 
+h4.section-title-center {
+ color: white;
+}
+
 .project-row {
   margin-top: .75rem;
 }
@@ -553,6 +557,14 @@ p.bio-body-text {
   border: solid 2px red;
   border-radius: 50%;
   display: inline-block;
+}
+
+.black-section {
+  background-color: #282828;
+}
+
+.white {
+  color: white;
 }
 
 .skills-text {
