@@ -247,6 +247,10 @@ h5.personal-work-link {
   display: inline;
 }
 
+.beo-grey-section {
+  background-color: #F8F8F8;
+}
+
 p.site-logo {
   font-weight: 600;
   font-size: 21px;
@@ -258,6 +262,19 @@ font-family: 'Poppins', sans-serif;
   width: 5px;
   height: 10px;
   background-color: #00ff97;
+}
+
+.beo-green {
+color: #4A9484;
+}
+
+.beo-grey-background {
+  background-color: #F8F8F8;
+}
+
+.beo-green-background {
+  background-color: #4A9484;
+  color: white;
 }
 
 .expanded-text-box {
@@ -517,7 +534,10 @@ h3.project-large-text {
 }
 
 h4.section-title-center {
- color: white;
+}
+
+.white {
+  color: white;
 }
 
 .project-row {
