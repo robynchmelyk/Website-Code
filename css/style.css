@@ -240,6 +240,30 @@ h5.personal-work-link {
   line-height: 20px;
 }
 
+@font-face {
+	font-family: 'Otherworldly';
+	src: url('OtherworldlyGX.ttf') format('ttf');
+}
+
+@keyframes Looper {
+	from {
+		font-variation-settings: 'wdth' 100;
+	}
+	to {
+		font-variation-settings: 'wdth' 900;
+	}
+}
+
+.variable-typeface-animation-text {
+	font-size: 5em;
+  font-family: 'OtherworldlyGX', sans-serif;
+	line-height: 1.9em;
+	color: #FFFFFF;
+	font-variation-settings: 'wdth' 400;
+	animation: Looper 2.5s linear 2s infinite;
+	animation-direction: alternate;
+}
+
 .expanded-section {
   background-color: #282828;
   color: white;
