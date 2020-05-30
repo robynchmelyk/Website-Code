@@ -272,6 +272,7 @@ h5.personal-work-link {
 
 .beo-grey-section {
   background-color: #F8F8F8;
+  padding: 0 12px;
 }
 
 p.site-logo {
@@ -298,6 +299,7 @@ color: #4A9484;
 .beo-green-background {
   background-color: #23524A;
   color: white;
+    padding: 0 12px;
 }
 
 .green-background {
