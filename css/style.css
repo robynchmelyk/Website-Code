@@ -1239,6 +1239,22 @@ a.photographer-link:hover {
     margin-bottom: 0;
   }
 
+  .assignment-1 {
+    background-color: #FFCD00;
+  }
+
+  .assignment-2 {
+    background-color: #FF5A20;
+  }
+
+  .assignment-3 {
+    background-color: #40A8FF;
+  }
+
+  .assignment-4 {
+    background-color: #2EE456;
+  }
+
   .coloured-section {
     background-color: #f9f9f9;
     margin: 0;
