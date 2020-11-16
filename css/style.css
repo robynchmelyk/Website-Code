@@ -314,6 +314,12 @@ color: #4A9484;
   color: #6A4EAE;
 }
 
+.heyyoublue {
+  background-color: #004161;
+  border-bottom-width: 1px;
+  border-bottom-color: #E68584;
+}
+
 .frend-dark-section {
   background-color: #202125;
   color: white;
@@ -1532,6 +1538,8 @@ h3.project-large-text {
     padding-bottom: .25rem;
     transition: all 0.3s ease-in-out;
   }
+
+
 
   h3.project-description-subtitle:hover {
     transform: scale(1.15);
